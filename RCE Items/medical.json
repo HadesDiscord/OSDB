@@ -1,0 +1,102 @@
+[
+  {
+    "itemname": "Anti-Radiation Pills",
+    "shortname": "antiradpills"
+  },
+  {
+    "itemname": "Bandage",
+    "shortname": "bandage"
+  },
+  {
+    "itemname": "Large Medkit",
+    "shortname": "largemedkit"
+  },
+  {
+    "itemname": "Medical Syringe",
+    "shortname": "syringe.medical"
+  },
+  {
+    "itemname": "Advanced Anti-Rad Tea",
+    "shortname": "radiationresisttea.advanced"
+  },
+  {
+    "itemname": "Advanced Healing Tea",
+    "shortname": "healingtea.advanced"
+  },
+  {
+    "itemname": "Advanced Max Health Tea",
+    "shortname": "maxhealthtea.advanced"
+  },
+  {
+    "itemname": "Advanced Ore Tea",
+    "shortname": "oretea.advanced"
+  },
+  {
+    "itemname": "Advanced Rad. Removal Tea",
+    "shortname": "radiationremovetea.advanced"
+  },
+  {
+    "itemname": "Advanced Scrap Tea",
+    "shortname": "scraptea.advanced"
+  },
+  {
+    "itemname": "Advanced Wood Tea",
+    "shortname": "woodtea.advanced"
+  },
+  {
+    "itemname": "Anti-Rad Tea",
+    "shortname": "radiationresisttea"
+  },
+  {
+    "itemname": "Basic Healing Tea",
+    "shortname": "healingtea"
+  },
+  {
+    "itemname": "Basic Max Health Tea",
+    "shortname": "maxhealthtea"
+  },
+  {
+    "itemname": "Basic Ore Tea",
+    "shortname": "oretea"
+  },
+  {
+    "itemname": "Basic Scrap Tea",
+    "shortname": "scraptea"
+  },
+  {
+    "itemname": "Basic Wood Tea",
+    "shortname": "woodtea"
+  },
+  {
+    "itemname": "Pure Anti-Rad Tea",
+    "shortname": "radiationresisttea.pure"
+  },
+  {
+    "itemname": "Pure Healing Tea",
+    "shortname": "healingtea.pure"
+  },
+  {
+    "itemname": "Pure Max Health Tea",
+    "shortname": "maxhealthtea.pure"
+  },
+  {
+    "itemname": "Pure Ore Tea",
+    "shortname": "oretea.pure"
+  },
+  {
+    "itemname": "Pure Rad. Removal Tea",
+    "shortname": "radiationremovetea.pure"
+  },
+  {
+    "itemname": "Pure Scrap Tea",
+    "shortname": "scraptea.pure"
+  },
+  {
+    "itemname": "Pure Wood Tea",
+    "shortname": "woodtea.pure"
+  },
+  {
+    "itemname": "Rad. Removal Tea",
+    "shortname": "radiationremovetea"
+  }
+]

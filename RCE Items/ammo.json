@@ -1,0 +1,78 @@
+[
+  {
+    "itemname": "12 Gauge Buckshot",
+    "shortname": "ammo.shotgun"
+  },
+  {
+    "itemname": "12 Gauge Incendiary Shell",
+    "shortname": "ammo.shotgun.fire"
+  },
+  {
+    "itemname": "12 Gauge Slug",
+    "shortname": "ammo.shotgun.slug"
+  },
+  {
+    "itemname": "40mm HE Grenade",
+    "shortname": "ammo.grenadelauncher.he"
+  },
+  {
+    "itemname": "40mm Shotgun Round",
+    "shortname": "ammo.grenadelauncher.buckshot"
+  },
+  {
+    "itemname": "40mm Smoke Grenade",
+    "shortname": "ammo.grenadelauncher.smoke"
+  },
+  {
+    "itemname": "5.56 Rifle Ammo",
+    "shortname": "ammo.rifle"
+  },
+  {
+    "itemname": "Explosive 5.56 Rifle Ammo",
+    "shortname": "ammo.rifle.explosive"
+  },
+  {
+    "itemname": "Handmade Shell",
+    "shortname": "ammo.handmade.shell"
+  },
+  {
+    "itemname": "High Velocity Rocket",
+    "shortname": "ammo.rocket.hv"
+  },
+  {
+    "itemname": "HV 5.56 Rifle Ammo",
+    "shortname": "ammo.rifle.hv"
+  },
+  {
+    "itemname": "HV Pistol Ammo",
+    "shortname": "ammo.pistol.hv"
+  },
+  {
+    "itemname": "Incendiary 5.56 Rifle Ammo",
+    "shortname": "ammo.rifle.incendiary"
+  },
+  {
+    "itemname": "Incendiary Pistol Bullet",
+    "shortname": "ammo.pistol.fire"
+  },
+  {
+    "itemname": "Incendiary Rocket",
+    "shortname": "ammo.rocket.fire"
+  },
+  {
+    "itemname": "Nailgun Nails",
+    "shortname": "ammo.nailgun.nails"
+  },
+  {
+    "itemname": "Pistol Bullet",
+    "shortname": "ammo.pistol"
+  },
+  {
+    "itemname": "Rocket",
+    "shortname": "ammo.rocket.basic"
+  },
+  {
+    "itemname": "Torpedo",
+    "shortname": "submarine.torpedo.straight"
+  }
+]

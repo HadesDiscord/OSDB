@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Dome",
+    "description": "Monument identifier for Dome.",
+    "command": "sphere_tank",
+    "commandUsage": "sphere_tank"
+  },
+  {
+    "name": "Small Harbor",
+    "description": "Monument identifier for Small Harbor.",
+    "command": "harbor_1",
+    "commandUsage": "harbor_1"
+  },
+  {
+    "name": "Large Harbor",
+    "description": "Monument identifier for Large Harbor.",
+    "command": "harbor_2",
+    "commandUsage": "harbor_2"
+  },
+  {
+    "name": "Airfield",
+    "description": "Monument identifier for Airfield.",
+    "command": "airfield_1",
+    "commandUsage": "airfield_1"
+  },
+  {
+    "name": "Launch Site",
+    "description": "Monument identifier for Launch Site.",
+    "command": "launch_site_1",
+    "commandUsage": "launch_site_1"
+  },
+  {
+    "name": "Power Plant",
+    "description": "Monument identifier for Power Plant.",
+    "command": "powerplant_1",
+    "commandUsage": "powerplant_1"
+  },
+  {
+    "name": "Train Yard",
+    "description": "Monument identifier for Train Yard.",
+    "command": "trainyard_1",
+    "commandUsage": "trainyard_1"
+  },
+  {
+    "name": "Water Treatment",
+    "description": "Monument identifier for Water Treatment Plant.",
+    "command": "water_treatment_plant_1",
+    "commandUsage": "water_treatment_plant_1"
+  },
+  {
+    "name": "Lighthouse",
+    "description": "Monument identifier for Lighthouse.",
+    "command": "lighthouse",
+    "commandUsage": "lighthouse"
+  },
+  {
+    "name": "Sewer Branch",
+    "description": "Monument identifier for Sewer Branch.",
+    "command": "radtown_small_3",
+    "commandUsage": "radtown_small_3"
+  },
+  {
+    "name": "Oxum's Gas Station",
+    "description": "Monument identifier for Oxum's Gas Station.",
+    "command": "gas_station_1",
+    "commandUsage": "gas_station_1"
+  },
+  {
+    "name": "Sulfur Quarry",
+    "description": "Monument identifier for Sulfur Quarry.",
+    "command": "mining_quarry_a",
+    "commandUsage": "mining_quarry_a"
+  },
+  {
+    "name": "Stone Quarry",
+    "description": "Monument identifier for Stone Quarry.",
+    "command": "mining_quarry_b",
+    "commandUsage": "mining_quarry_b"
+  },
+  {
+    "name": "HQM Quarry",
+    "description": "Monument identifier for HQM Quarry.",
+    "command": "mining_quarry_c",
+    "commandUsage": "mining_quarry_c"
+  },
+  {
+    "name": "Satellite Dish",
+    "description": "Monument identifier for Satellite Dish.",
+    "command": "satellite_dish",
+    "commandUsage": "satellite_dish"
+  },
+  {
+    "name": "Abandoned Supermarket",
+    "description": "Monument identifier for Abandoned Supermarket.",
+    "command": "supermarket_1",
+    "commandUsage": "supermarket_1"
+  },
+  {
+    "name": "Large Oil Rig",
+    "description": "Monument identifier for Large Oil Rig.",
+    "command": "oilrig_1",
+    "commandUsage": "oilrig_1"
+  },
+  {
+    "name": "Small Oil Rig",
+    "description": "Monument identifier for Small Oil Rig.",
+    "command": "oilrig_2",
+    "commandUsage": "oilrig_2"
+  },
+  {
+    "name": "Shipping Cargo",
+    "description": "Monument identifier for Shipping Cargo Ship.",
+    "command": "cargoshipdynamic1",
+    "commandUsage": "cargoshipdynamic1"
+  },
+  {
+    "name": "Military Cargo",
+    "description": "Monument identifier for Military Cargo Ship.",
+    "command": "cargoshipdynamic2",
+    "commandUsage": "cargoshipdynamic2"
+  },
+  {
+    "name": "Military Tunnel",
+    "description": "Monument identifier for Military Tunnel.",
+    "command": "military_tunnel",
+    "commandUsage": "military_tunnel"
+  },
+  {
+    "name": "Underwater Lab",
+    "description": "Monument identifier for Underwater Lab.",
+    "command": "underwater_lab",
+    "commandUsage": "underwater_lab"
+  },
+  {
+    "name": "Water Well A",
+    "description": "Monument identifier for Water Well A.",
+    "command": "water_well_a",
+    "commandUsage": "water_well_a"
+  },
+  {
+    "name": "Water Well B",
+    "description": "Monument identifier for Water Well B.",
+    "command": "water_well_b",
+    "commandUsage": "water_well_b"
+  },
+  {
+    "name": "Water Well C",
+    "description": "Monument identifier for Water Well C.",
+    "command": "water_well_c",
+    "commandUsage": "water_well_c"
+  },
+  {
+    "name": "Water Well D",
+    "description": "Monument identifier for Water Well D.",
+    "command": "water_well_d",
+    "commandUsage": "water_well_d"
+  },
+  {
+    "name": "Water Well E",
+    "description": "Monument identifier for Water Well E.",
+    "command": "water_well_e",
+    "commandUsage": "water_well_e"
+  },
+  {
+    "name": "Mining Outpost",
+    "description": "Monument identifier for Mining Outpost.",
+    "command": "warehouse",
+    "commandUsage": "warehouse"
+  }
+]

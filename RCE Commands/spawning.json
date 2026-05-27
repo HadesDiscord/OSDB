@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Spawn Entity",
+    "description": "Spawns an entity at a specified position.",
+    "command": "entity.spawn {entity_shortname} {x} {y} {z}",
+    "commandUsage": "entity.spawn recycler_static 100 20 300"
+  },
+  {
+    "name": "Spawn Recycler",
+    "description": "Spawns a recycler entity.",
+    "command": "entity.spawn recycler_static {x} {y} {z}",
+    "commandUsage": "entity.spawn recycler_static 100 20 300"
+  },
+  {
+    "name": "Spawn Vending Machine",
+    "description": "Spawns a vending machine entity.",
+    "command": "entity.spawn vendingmachine.deployed {x} {y} {z}",
+    "commandUsage": "entity.spawn vendingmachine.deployed 100 20 300"
+  },
+  {
+    "name": "Spawn SAM Site",
+    "description": "Spawns a SAM Site.",
+    "command": "entity.spawn sam_site_turret_deployed {x} {y} {z}",
+    "commandUsage": "entity.spawn sam_site_turret_deployed 100 20 300"
+  },
+  {
+    "name": "Spawn Workbench Tier 1",
+    "description": "Spawns a Tier 1 Workbench.",
+    "command": "entity.spawn workbench1.deployed {x} {y} {z}",
+    "commandUsage": "entity.spawn workbench1.deployed 100 20 300"
+  },
+  {
+    "name": "Spawn Workbench Tier 2",
+    "description": "Spawns a Tier 2 Workbench.",
+    "command": "entity.spawn workbench2.deployed {x} {y} {z}",
+    "commandUsage": "entity.spawn workbench2.deployed 100 20 300"
+  },
+  {
+    "name": "Spawn Workbench Tier 3",
+    "description": "Spawns a Tier 3 Workbench.",
+    "command": "entity.spawn workbench3.deployed {x} {y} {z}",
+    "commandUsage": "entity.spawn workbench3.deployed 100 20 300"
+  },
+  {
+    "name": "Spawn Helicopter Crate",
+    "description": "Spawns a Patrol Helicopter crate.",
+    "command": "entity.spawn heli_crate {x} {y} {z}",
+    "commandUsage": "entity.spawn heli_crate 100 20 300"
+  },
+  {
+    "name": "Spawn Bradley Crate",
+    "description": "Spawns a Bradley APC crate.",
+    "command": "entity.spawn bradley_crate {x} {y} {z}",
+    "commandUsage": "entity.spawn bradley_crate 100 20 300"
+  },
+  {
+    "name": "Spawn Elite Crate",
+    "description": "Spawns an elite military crate.",
+    "command": "entity.spawn crate_elite {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_elite 100 20 300"
+  },
+  {
+    "name": "Spawn Locked Crate",
+    "description": "Spawns a locked crate.",
+    "command": "entity.spawn codelockedhackablecrate {x} {y} {z}",
+    "commandUsage": "entity.spawn codelockedhackablecrate 100 20 300"
+  },
+  {
+    "name": "Spawn Supply Drop",
+    "description": "Spawns a supply drop crate.",
+    "command": "entity.spawn supply_drop {x} {y} {z}",
+    "commandUsage": "entity.spawn supply_drop 100 20 300"
+  },
+  {
+    "name": "Spawn Tool Crate",
+    "description": "Spawns a toolbox crate.",
+    "command": "entity.spawn crate_tools {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_tools 100 20 300"
+  },
+  {
+    "name": "Spawn Food Crate",
+    "description": "Spawns a food crate.",
+    "command": "entity.spawn crate_normal_2_food {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_normal_2_food 100 20 300"
+  },
+  {
+    "name": "Spawn Medical Crate",
+    "description": "Spawns a medical crate.",
+    "command": "entity.spawn crate_normal_2_medical {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_normal_2_medical 100 20 300"
+  },
+  {
+    "name": "Spawn Military Crate",
+    "description": "Spawns a military crate.",
+    "command": "entity.spawn crate_normal {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_normal 100 20 300"
+  },
+  {
+    "name": "Spawn Barrel",
+    "description": "Spawns a loot barrel.",
+    "command": "entity.spawn loot_barrel_1 {x} {y} {z}",
+    "commandUsage": "entity.spawn loot_barrel_1 100 20 300"
+  },
+  {
+    "name": "Spawn Underwater Crate",
+    "description": "Spawns an underwater loot crate.",
+    "command": "entity.spawn crate_underwater_basic {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_underwater_basic 100 20 300"
+  },
+  {
+    "name": "Spawn Small Boat",
+    "description": "Spawns a small boat vehicle.",
+    "command": "entity.spawn motorrowboat {x} {y} {z}",
+    "commandUsage": "entity.spawn motorrowboat 100 20 300"
+  },
+  {
+    "name": "Spawn RHIB",
+    "description": "Spawns an RHIB vehicle.",
+    "command": "entity.spawn rhib {x} {y} {z}",
+    "commandUsage": "entity.spawn rhib 100 20 300"
+  },
+  {
+    "name": "Spawn Horse",
+    "description": "Spawns a ridable horse.",
+    "command": "entity.spawn horse {x} {y} {z}",
+    "commandUsage": "entity.spawn horse 100 20 300"
+  },
+  {
+    "name": "Spawn Cargo Ship",
+    "description": "Spawns a Cargo Ship event.",
+    "command": "entity.spawn cargoshiptest {x} {y} {z}",
+    "commandUsage": "entity.spawn cargoshiptest 100 20 300"
+  },
+  {
+    "name": "Enable Monument Recycler Config",
+    "description": "Enables a recycler spawn configuration for a monument.",
+    "command": "monumentspawns.enableconfig {config_name}",
+    "commandUsage": "monumentspawns.enableconfig dome_recycler"
+  },
+  {
+    "name": "Disable Monument Recycler Config",
+    "description": "Disables a recycler spawn configuration for a monument.",
+    "command": "monumentspawns.disableconfig {config_name}",
+    "commandUsage": "monumentspawns.disableconfig dome_recycler"
+  },
+  {
+    "name": "Force Spawn Monument Recycler Config",
+    "description": "Forces a recycler spawn configuration to spawn immediately.",
+    "command": "monumentspawns.forcespawnconfig {config_name}",
+    "commandUsage": "monumentspawns.forcespawnconfig dome_recycler"
+  },
+  {
+    "name": "Get Monument Recycler Configs",
+    "description": "Displays all monument recycler configurations.",
+    "command": "monumentspawns.getconfigs",
+    "commandUsage": "monumentspawns.getconfigs"
+  },
+  {
+    "name": "Get Enabled Monument Recycler Configs",
+    "description": "Displays all enabled monument recycler configurations.",
+    "command": "monumentspawns.getenabledconfigs",
+    "commandUsage": "monumentspawns.getenabledconfigs"
+  }
+]

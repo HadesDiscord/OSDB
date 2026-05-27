@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Delete Player Structures",
+    "description": "Deletes all structures owned by a player.",
+    "command": "entity.deleteby {player_name}",
+    "commandUsage": "entity.deleteby U7FH"
+  },
+  {
+    "name": "Destroy Target Building",
+    "description": "Destroys the building you are currently looking at.",
+    "command": "ent destroybuilding",
+    "commandUsage": "ent destroybuilding"
+  },
+  {
+    "name": "Delete Entity",
+    "description": "Deletes a specified entity and optionally checks ownership.",
+    "command": "entity.deleteentity {entity_name} {0|1}",
+    "commandUsage": "entity.deleteentity codelock 1"
+  },
+  {
+    "name": "Delete All Entities",
+    "description": "Deletes all entities matching a specified shortname.",
+    "command": "entity.deleteentity {shortname} 0",
+    "commandUsage": "entity.deleteentity codelock 0"
+  },
+  {
+    "name": "Set Boat Corpse Duration",
+    "description": "Controls how long destroyed boats remain before despawning.",
+    "command": "vehicle.boat_corpse_seconds {seconds}",
+    "commandUsage": "vehicle.boat_corpse_seconds 1800"
+  },
+  {
+    "name": "Set Horse Decay Time",
+    "description": "Controls how long unattended horses survive before despawning.",
+    "command": "baseridableanimal.decayminutes {minutes}",
+    "commandUsage": "baseridableanimal.decayminutes 60"
+  },
+  {
+    "name": "Set Horse Dung Speed",
+    "description": "Scales horse dung production speed.",
+    "command": "baseridableanimal.dungtimescale {scale}",
+    "commandUsage": "baseridableanimal.dungtimescale 2"
+  },
+  {
+    "name": "Set Plant Growth Speed",
+    "description": "Scales plant growth speed.",
+    "command": "server.planttickscale {scale}",
+    "commandUsage": "server.planttickscale 1"
+  },
+  {
+    "name": "Toggle Recycler Usage",
+    "description": "Enables or disables recycler interaction.",
+    "command": "CanUseRecycler {0|1}",
+    "commandUsage": "CanUseRecycler 1"
+  },
+  {
+    "name": "Set Recycler Speed",
+    "description": "Controls recycler processing speed.",
+    "command": "RecyclerNextRecycleTime {seconds}",
+    "commandUsage": "RecyclerNextRecycleTime 2"
+  },
+  {
+    "name": "Set Recycler Warmup Time",
+    "description": "Controls recycler startup delay.",
+    "command": "RecyclerStartTime {seconds}",
+    "commandUsage": "RecyclerStartTime 5"
+  },
+  {
+    "name": "Set Sleeping Bag Cooldown",
+    "description": "Controls sleeping bag respawn cooldown.",
+    "command": "bagreuseseconds {seconds}",
+    "commandUsage": "bagreuseseconds 600"
+  },
+  {
+    "name": "Set Bed Cooldown",
+    "description": "Controls bed respawn cooldown.",
+    "command": "bedreuseseconds {seconds}",
+    "commandUsage": "bedreuseseconds 900"
+  }
+]

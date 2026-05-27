@@ -1,0 +1,98 @@
+[
+  {
+    "itemname": "Binoculars",
+    "shortname": "tool.binoculars"
+  },
+  {
+    "itemname": "Birthday Cake",
+    "shortname": "cakefiveyear"
+  },
+  {
+    "itemname": "Chainsaw",
+    "shortname": "chainsaw"
+  },
+  {
+    "itemname": "Flare",
+    "shortname": "flare"
+  },
+  {
+    "itemname": "Flashlight",
+    "shortname": "flashlight.held"
+  },
+  {
+    "itemname": "Hammer",
+    "shortname": "hammer"
+  },
+  {
+    "itemname": "Handmade Fishing Rod",
+    "shortname": "fishingrod.handmade"
+  },
+  {
+    "itemname": "Hatchet",
+    "shortname": "hatchet"
+  },
+  {
+    "itemname": "Jackhammer",
+    "shortname": "jackhammer"
+  },
+  {
+    "itemname": "Pickaxe",
+    "shortname": "pickaxe"
+  },
+  {
+    "itemname": "Pipe Tool",
+    "shortname": "pipetool"
+  },
+  {
+    "itemname": "RF Transmitter",
+    "shortname": "rf.detonator"
+  },
+  {
+    "itemname": "Rock",
+    "shortname": "rock"
+  },
+  {
+    "itemname": "Salvaged Axe",
+    "shortname": "axe.salvaged"
+  },
+  {
+    "itemname": "Salvaged Hammer",
+    "shortname": "hammer.salvaged"
+  },
+  {
+    "itemname": "Salvaged Icepick",
+    "shortname": "icepick.salvaged"
+  },
+  {
+    "itemname": "Satchel Charge",
+    "shortname": "explosive.satchel"
+  },
+  {
+    "itemname": "Smoke Grenade",
+    "shortname": "grenade.smoke"
+  },
+  {
+    "itemname": "Spray Can",
+    "shortname": "spraycan"
+  },
+  {
+    "itemname": "Stone Hatchet",
+    "shortname": "stonehatchet"
+  },
+  {
+    "itemname": "Stone Pickaxe",
+    "shortname": "stone.pickaxe"
+  },
+  {
+    "itemname": "Supply Signal",
+    "shortname": "supply.signal"
+  },
+  {
+    "itemname": "Torch",
+    "shortname": "torch"
+  },
+  {
+    "itemname": "Water Bucket",
+    "shortname": "bucket.water"
+  }
+]

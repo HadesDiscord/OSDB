@@ -1,0 +1,68 @@
+[
+  {
+    "name": "List Kits",
+    "description": "Displays all available kits.",
+    "command": "kit list",
+    "commandUsage": "kit list"
+  },
+  {
+    "name": "Kit Information",
+    "description": "Displays information about a kit.",
+    "command": "kit info {kit_name}",
+    "commandUsage": "kit info Starter"
+  },
+  {
+    "name": "Add Kit Item",
+    "description": "Adds an item to a kit.",
+    "command": "kit add {kit_name} {item_name} {amount} {condition} {container}",
+    "commandUsage": "kit add Starter rifle.ak 1 1 Belt"
+  },
+  {
+    "name": "Remove Kit Item",
+    "description": "Removes an item from a kit.",
+    "command": "kit remove {kit_name} {item_id}",
+    "commandUsage": "kit remove Starter 1"
+  },
+  {
+    "name": "Delete Kit",
+    "description": "Deletes a kit.",
+    "command": "kit delete {kit_name}",
+    "commandUsage": "kit delete Starter"
+  },
+  {
+    "name": "Give Kit To Player",
+    "description": "Gives a kit to a specified player.",
+    "command": "kit givetoplayer {kit_name} {player_name}",
+    "commandUsage": "kit givetoplayer Starter U7FH"
+  },
+  {
+    "name": "Give Kit To Group",
+    "description": "Gives a kit to every player in a specified group.",
+    "command": "kit givetogroup {kit_name} {group}",
+    "commandUsage": "kit givetogroup Starter VIP"
+  },
+  {
+    "name": "Give Kit To All Players",
+    "description": "Gives a kit to all players on the server.",
+    "command": "kit givetoall {kit_name}",
+    "commandUsage": "kit givetoall Starter"
+  },
+  {
+    "name": "Change Kit Name",
+    "description": "Changes the name of a kit.",
+    "command": "kit edit {kit_name} changename {new_name}",
+    "commandUsage": "kit edit Starter changename VIPStarter"
+  },
+  {
+    "name": "Add Kit Group",
+    "description": "Adds a group requirement to a kit.",
+    "command": "kit edit {kit_name} addgroup {group}",
+    "commandUsage": "kit edit Starter addgroup VIP"
+  },
+  {
+    "name": "Remove Kit Group",
+    "description": "Removes a group requirement from a kit.",
+    "command": "kit edit {kit_name} removegroup {group}",
+    "commandUsage": "kit edit Starter removegroup VIP"
+  }
+]

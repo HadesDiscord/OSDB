@@ -1,0 +1,178 @@
+[
+  {
+    "itemname": "Armored Door",
+    "shortname": "door.hinged.toptier"
+  },
+  {
+    "itemname": "Armored Double Door",
+    "shortname": "door.double.hinged.toptier"
+  },
+  {
+    "itemname": "Barbed Wooden Barricade",
+    "shortname": "barricade.woodwire"
+  },
+  {
+    "itemname": "Building Plan",
+    "shortname": "building.planner"
+  },
+  {
+    "itemname": "Chainlink Fence",
+    "shortname": "wall.frame.fence"
+  },
+  {
+    "itemname": "Chainlink Fence Gate",
+    "shortname": "wall.frame.fence.gate"
+  },
+  {
+    "itemname": "Code Lock",
+    "shortname": "lock.code"
+  },
+  {
+    "itemname": "Concrete Barricade",
+    "shortname": "barricade.concrete"
+  },
+  {
+    "itemname": "Floor Grill",
+    "shortname": "floor.grill"
+  },
+  {
+    "itemname": "Floor Triangle Grill",
+    "shortname": "floor.triangle.grill"
+  },
+  {
+    "itemname": "Garage Door",
+    "shortname": "wall.frame.garagedoor"
+  },
+  {
+    "itemname": "High External Stone Gate",
+    "shortname": "gates.external.high.stone"
+  },
+  {
+    "itemname": "High External Wooden Gate",
+    "shortname": "gates.external.high.wood"
+  },
+  {
+    "itemname": "High External Stone Wall",
+    "shortname": "wall.external.high.stone"
+  },
+  {
+    "itemname": "High External Wooden Wall",
+    "shortname": "wall.external.high"
+  },
+  {
+    "itemname": "Key Lock",
+    "shortname": "lock.key"
+  },
+  {
+    "itemname": "Ladder Hatch",
+    "shortname": "floor.ladder.hatch"
+  },
+  {
+    "itemname": "Large Water Catcher",
+    "shortname": "water.catcher.large"
+  },
+  {
+    "itemname": "Metal Barricade",
+    "shortname": "barricade.metal"
+  },
+  {
+    "itemname": "Metal Horizontal Embrasure",
+    "shortname": "shutter.metal.embrasure.a"
+  },
+  {
+    "itemname": "Metal Shop Front",
+    "shortname": "wall.frame.shopfront.metal"
+  },
+  {
+    "itemname": "Metal Vertical Embrasure",
+    "shortname": "shutter.metal.embrasure.b"
+  },
+  {
+    "itemname": "Metal Window Bars",
+    "shortname": "wall.window.bars.metal"
+  },
+  {
+    "itemname": "Netting",
+    "shortname": "wall.frame.netting"
+  },
+  {
+    "itemname": "Prison Cell Gate",
+    "shortname": "wall.frame.cell.gate"
+  },
+  {
+    "itemname": "Prison Cell Wall",
+    "shortname": "wall.frame.cell"
+  },
+  {
+    "itemname": "Reinforced Glass Window",
+    "shortname": "wall.window.bars.toptier"
+  },
+  {
+    "itemname": "Sandbag Barricade",
+    "shortname": "barricade.sandbags"
+  },
+  {
+    "itemname": "Sheet Metal Door",
+    "shortname": "door.hinged.metal"
+  },
+  {
+    "itemname": "Sheet Metal Double Door",
+    "shortname": "door.double.hinged.metal"
+  },
+  {
+    "itemname": "Shop Front",
+    "shortname": "wall.frame.shopfront"
+  },
+  {
+    "itemname": "Small Water Catcher",
+    "shortname": "water.catcher.small"
+  },
+  {
+    "itemname": "Stone Barricade",
+    "shortname": "barricade.stone"
+  },
+  {
+    "itemname": "Strengthened Glass Window",
+    "shortname": "wall.window.glass.reinforced"
+  },
+  {
+    "itemname": "Tool Cupboard",
+    "shortname": "cupboard.tool"
+  },
+  {
+    "itemname": "Triangle Ladder Hatch",
+    "shortname": "floor.triangle.ladder.hatch"
+  },
+  {
+    "itemname": "Watch Tower",
+    "shortname": "watchtower.wood"
+  },
+  {
+    "itemname": "Wood Double Door",
+    "shortname": "door.double.hinged.wood"
+  },
+  {
+    "itemname": "Wood Shutters",
+    "shortname": "shutter.wood.a"
+  },
+  {
+    "itemname": "Wooden Barricade",
+    "shortname": "barricade.wood"
+  },
+  {
+    "itemname": "Wooden Barricade Cover",
+    "shortname": "barricade.wood.cover"
+  },
+  {
+    "itemname": "Wooden Door",
+    "shortname": "door.hinged.wood"
+  },
+  {
+    "itemname": "Wooden Ladder",
+    "shortname": "ladder.wooden.wall"
+  },
+  {
+    "itemname": "Wooden Window Bars",
+    "shortname": "wall.window.bars.wood"
+  }
+]

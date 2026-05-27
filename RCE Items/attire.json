@@ -1,0 +1,242 @@
+[
+  {
+    "itemname": "Bandana Mask",
+    "shortname": "mask.bandana"
+  },
+  {
+    "itemname": "Barrel Costume",
+    "shortname": "barrelcostume"
+  },
+  {
+    "itemname": "Baseball Cap",
+    "shortname": "hat.cap"
+  },
+  {
+    "itemname": "Beanie Hat",
+    "shortname": "hat.beenie"
+  },
+  {
+    "itemname": "Bone Armor",
+    "shortname": "bone.armor.suit"
+  },
+  {
+    "itemname": "Bone Helmet",
+    "shortname": "deer.skull.mask"
+  },
+  {
+    "itemname": "Boonie Hat",
+    "shortname": "hat.boonie"
+  },
+  {
+    "itemname": "Boots",
+    "shortname": "shoes.boots"
+  },
+  {
+    "itemname": "Bucket Helmet",
+    "shortname": "bucket.helmet"
+  },
+  {
+    "itemname": "Burlap Gloves",
+    "shortname": "burlap.gloves.new"
+  },
+  {
+    "itemname": "Burlap Headwrap",
+    "shortname": "burlap.headwrap"
+  },
+  {
+    "itemname": "Burlap Shirt",
+    "shortname": "burlap.shirt"
+  },
+  {
+    "itemname": "Burlap Shoes",
+    "shortname": "burlap.shoes"
+  },
+  {
+    "itemname": "Burlap Trousers",
+    "shortname": "burlap.trousers"
+  },
+  {
+    "itemname": "Candle Hat",
+    "shortname": "hat.candle"
+  },
+  {
+    "itemname": "Coffee Can Helmet",
+    "shortname": "coffeecan.helmet"
+  },
+  {
+    "itemname": "Crate Costume",
+    "shortname": "cratecostume"
+  },
+  {
+    "itemname": "Diving Fins",
+    "shortname": "diving.fins"
+  },
+  {
+    "itemname": "Diving Mask",
+    "shortname": "diving.mask"
+  },
+  {
+    "itemname": "Diving Tank",
+    "shortname": "diving.tank"
+  },
+  {
+    "itemname": "Frog Boots",
+    "shortname": "boots.frog"
+  },
+  {
+    "itemname": "Hazmat Suit",
+    "shortname": "hazmatsuit"
+  },
+  {
+    "itemname": "Heavy Plate Helmet",
+    "shortname": "heavy.plate.helmet"
+  },
+  {
+    "itemname": "Heavy Plate Jacket",
+    "shortname": "heavy.plate.jacket"
+  },
+  {
+    "itemname": "Heavy Plate Pants",
+    "shortname": "heavy.plate.pants"
+  },
+  {
+    "itemname": "Hide Boots",
+    "shortname": "attire.hide.boots"
+  },
+  {
+    "itemname": "Hide Halterneck",
+    "shortname": "attire.hide.helterneck"
+  },
+  {
+    "itemname": "Hide Pants",
+    "shortname": "attire.hide.pants"
+  },
+  {
+    "itemname": "Hide Poncho",
+    "shortname": "attire.hide.poncho"
+  },
+  {
+    "itemname": "Hide Skirt",
+    "shortname": "attire.hide.skirt"
+  },
+  {
+    "itemname": "Hide Vest",
+    "shortname": "attire.hide.vest"
+  },
+  {
+    "itemname": "Hoodie",
+    "shortname": "hoodie"
+  },
+  {
+    "itemname": "Improvised Balaclava",
+    "shortname": "mask.balaclava"
+  },
+  {
+    "itemname": "Jacket",
+    "shortname": "jacket"
+  },
+  {
+    "itemname": "Large Backpack",
+    "shortname": "largebackpack"
+  },
+  {
+    "itemname": "Leather Gloves",
+    "shortname": "burlap.gloves"
+  },
+  {
+    "itemname": "Longsleeve T-Shirt",
+    "shortname": "tshirt.long"
+  },
+  {
+    "itemname": "Lumberjack Hoodie",
+    "shortname": "lumberjack hoodie"
+  },
+  {
+    "itemname": "Metal Chest Plate",
+    "shortname": "metal.plate.torso"
+  },
+  {
+    "itemname": "Metal Facemask",
+    "shortname": "metal.facemask"
+  },
+  {
+    "itemname": "Miners Hat",
+    "shortname": "hat.miner"
+  },
+  {
+    "itemname": "Night Vision Goggles",
+    "shortname": "nightvisiongoggles"
+  },
+  {
+    "itemname": "Pants",
+    "shortname": "pants"
+  },
+  {
+    "itemname": "Party Hat",
+    "shortname": "partyhat"
+  },
+  {
+    "itemname": "Riot Helmet",
+    "shortname": "riot.helmet"
+  },
+  {
+    "itemname": "Roadsign Gloves",
+    "shortname": "roadsign.gloves"
+  },
+  {
+    "itemname": "Road Sign Jacket",
+    "shortname": "roadsign.jacket"
+  },
+  {
+    "itemname": "Road Sign Kilt",
+    "shortname": "roadsign.kilt"
+  },
+  {
+    "itemname": "Shirt",
+    "shortname": "shirt.collared"
+  },
+  {
+    "itemname": "Shorts",
+    "shortname": "pants.shorts"
+  },
+  {
+    "itemname": "Small Backpack",
+    "shortname": "smallbackpack"
+  },
+  {
+    "itemname": "Snow Jacket",
+    "shortname": "jacket.snow"
+  },
+  {
+    "itemname": "Tactical Gloves",
+    "shortname": "tactical.gloves"
+  },
+  {
+    "itemname": "Tank Top",
+    "shortname": "shirt.tanktop"
+  },
+  {
+    "itemname": "T-Shirt",
+    "shortname": "tshirt"
+  },
+  {
+    "itemname": "Wetsuit",
+    "shortname": "diving.wetsuit"
+  },
+  {
+    "itemname": "Wolf Headdress",
+    "shortname": "hat.wolf"
+  },
+  {
+    "itemname": "Wood Armor Helmet",
+    "shortname": "wood.armor.helmet"
+  },
+  {
+    "itemname": "Wood Armor Pants",
+    "shortname": "wood.armor.pants"
+  },
+  {
+    "itemname": "Wood Chestplate",
+    "shortname": "wood.armor.jacket"
+  }
+]

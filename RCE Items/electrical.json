@@ -1,0 +1,214 @@
+[
+  {
+    "itemname": "AND Switch",
+    "shortname": "electric.andswitch"
+  },
+  {
+    "itemname": "Audio Alarm",
+    "shortname": "electric.audioalarm"
+  },
+  {
+    "itemname": "Auto Turret",
+    "shortname": "autoturret"
+  },
+  {
+    "itemname": "Blocker",
+    "shortname": "electric.blocker"
+  },
+  {
+    "itemname": "Button",
+    "shortname": "electric.button"
+  },
+  {
+    "itemname": "Ceiling Light",
+    "shortname": "ceilinglight"
+  },
+  {
+    "itemname": "Computer Station",
+    "shortname": "computerstation"
+  },
+  {
+    "itemname": "Counter",
+    "shortname": "electric.counter"
+  },
+  {
+    "itemname": "Door Controller",
+    "shortname": "electric.doorcontroller"
+  },
+  {
+    "itemname": "Electrical Branch",
+    "shortname": "electrical.branch"
+  },
+  {
+    "itemname": "Electric Furnace",
+    "shortname": "electric.furnace"
+  },
+  {
+    "itemname": "Electric Heater",
+    "shortname": "electric.heater"
+  },
+  {
+    "itemname": "Elevator",
+    "shortname": "elevator"
+  },
+  {
+    "itemname": "Flasher Light",
+    "shortname": "electric.flasherlight"
+  },
+  {
+    "itemname": "Fluid Combiner",
+    "shortname": "fluid.combiner"
+  },
+  {
+    "itemname": "Fluid Splitter",
+    "shortname": "fluid.splitter"
+  },
+  {
+    "itemname": "Fluid Switch & Pump",
+    "shortname": "fluid.switch"
+  },
+  {
+    "itemname": "HBHF Sensor",
+    "shortname": "electric.hbhfsensor"
+  },
+  {
+    "itemname": "Hose Tool",
+    "shortname": "hosetool"
+  },
+  {
+    "itemname": "Igniter",
+    "shortname": "electric.igniter"
+  },
+  {
+    "itemname": "Industrial Combiner",
+    "shortname": "industrial.combiner"
+  },
+  {
+    "itemname": "Industrial Conveyor",
+    "shortname": "industrial.conveyor"
+  },
+  {
+    "itemname": "Industrial Crafter",
+    "shortname": "industrial.crafter"
+  },
+  {
+    "itemname": "Industrial Splitter",
+    "shortname": "industrial.splitter"
+  },
+  {
+    "itemname": "Large Rechargeable Battery",
+    "shortname": "electric.battery.rechargable.large"
+  },
+  {
+    "itemname": "Large Solar Panel",
+    "shortname": "electric.solarpanel.large"
+  },
+  {
+    "itemname": "Laser Detector",
+    "shortname": "electric.laserdetector"
+  },
+  {
+    "itemname": "Medium Rechargeable Battery",
+    "shortname": "electric.battery.rechargable.medium"
+  },
+  {
+    "itemname": "Memory Cell",
+    "shortname": "electrical.memorycell"
+  },
+  {
+    "itemname": "OR Switch",
+    "shortname": "electric.orswitch"
+  },
+  {
+    "itemname": "Powered Water Purifier",
+    "shortname": "powered.water.purifier"
+  },
+  {
+    "itemname": "Pressure Pad",
+    "shortname": "electric.pressurepad"
+  },
+  {
+    "itemname": "RAND Switch",
+    "shortname": "electric.random.switch"
+  },
+  {
+    "itemname": "Reactive Target",
+    "shortname": "target.reactive"
+  },
+  {
+    "itemname": "RF Broadcaster",
+    "shortname": "electric.rf.broadcaster"
+  },
+  {
+    "itemname": "RF Pager",
+    "shortname": "rf_pager"
+  },
+  {
+    "itemname": "RF Receiver",
+    "shortname": "electric.rf.receiver"
+  },
+  {
+    "itemname": "Root Combiner",
+    "shortname": "electrical.combiner"
+  },
+  {
+    "itemname": "Search Light",
+    "shortname": "searchlight"
+  },
+  {
+    "itemname": "Seismic Sensor",
+    "shortname": "electric.seismicsensor"
+  },
+  {
+    "itemname": "Siren Light",
+    "shortname": "electric.sirenlight"
+  },
+  {
+    "itemname": "Small Rechargeable Battery",
+    "shortname": "electric.battery.rechargable.small"
+  },
+  {
+    "itemname": "Small Generator",
+    "shortname": "electric.fuelgenerator.small"
+  },
+  {
+    "itemname": "Splitter",
+    "shortname": "electric.splitter"
+  },
+  {
+    "itemname": "Sprinkler",
+    "shortname": "electric.sprinkler"
+  },
+  {
+    "itemname": "Storage Adapter",
+    "shortname": "storageadapter"
+  },
+  {
+    "itemname": "Storage Monitor",
+    "shortname": "storage.monitor"
+  },
+  {
+    "itemname": "Switch",
+    "shortname": "electric.switch"
+  },
+  {
+    "itemname": "Tesla Coil",
+    "shortname": "electric.teslacoil"
+  },
+  {
+    "itemname": "Test Generator",
+    "shortname": "electric.generator.small"
+  },
+  {
+    "itemname": "Timer",
+    "shortname": "electric.timer"
+  },
+  {
+    "itemname": "Water Pump",
+    "shortname": "waterpump"
+  },
+  {
+    "itemname": "Wind Turbine",
+    "shortname": "generator.wind.scrap"
+  }
+]

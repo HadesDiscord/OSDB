@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Set Cargo Ship Speed",
+    "description": "Controls the movement speed of the Cargo Ship.",
+    "command": "cargoshipdynamic.cargoship_speed_scale {value}",
+    "commandUsage": "cargoshipdynamic.cargoship_speed_scale 3"
+  },
+  {
+    "name": "Set Cargo Ship Egress Duration",
+    "description": "Controls how long the Cargo Ship takes to leave the map.",
+    "command": "cargoships.egress_duration_minutes {minutes}",
+    "commandUsage": "cargoships.egress_duration_minutes 10"
+  },
+  {
+    "name": "Set Cargo Ship Event Duration",
+    "description": "Controls how long the Cargo Ship remains active.",
+    "command": "cargoships.event_duration_minutes {minutes}",
+    "commandUsage": "cargoships.event_duration_minutes 30"
+  },
+  {
+    "name": "Toggle Cargo Ship Event",
+    "description": "Enables or disables the Cargo Ship event.",
+    "command": "cargoships.event_enabled {0|1}",
+    "commandUsage": "cargoships.event_enabled 1"
+  },
+  {
+    "name": "Set Cargo Ship Loot Spacing",
+    "description": "Controls the time between locked crate spawns on Cargo Ship.",
+    "command": "cargoships.loot_round_spacing_minutes {minutes}",
+    "commandUsage": "cargoships.loot_round_spacing_minutes 15"
+  },
+  {
+    "name": "Set Cargo Ship Loot Rounds",
+    "description": "Controls how many locked crate rounds occur on Cargo Ship.",
+    "command": "cargoships.loot_rounds {amount}",
+    "commandUsage": "cargoships.loot_rounds 3"
+  },
+  {
+    "name": "Toggle Cargo Ship Scientists",
+    "description": "Enables or disables scientist spawning on Cargo Ship.",
+    "command": "cargoships.scientist_onboard_check {0|1}",
+    "commandUsage": "cargoships.scientist_onboard_check 1"
+  },
+  {
+    "name": "Start Cargo Ship Egress",
+    "description": "Forces the Cargo Ship to leave the map.",
+    "command": "cargoships.startegressing",
+    "commandUsage": "cargoships.startegressing"
+  },
+  {
+    "name": "Trigger Event",
+    "description": "Starts a specified event.",
+    "command": "events.triggerevent {event_name}",
+    "commandUsage": "events.triggerevent event_cargoship"
+  },
+  {
+    "name": "Stop Event",
+    "description": "Stops a specified event.",
+    "command": "events.stopevent {event_name}",
+    "commandUsage": "events.stopevent event_cargoship"
+  },
+  {
+    "name": "Toggle Bradley APC",
+    "description": "Enables or disables Bradley APC spawning.",
+    "command": "bradley.enabled {0|1}",
+    "commandUsage": "bradley.enabled 1"
+  },
+  {
+    "name": "Toggle Bradley Quick Respawn",
+    "description": "Enables or disables quick respawn for Bradley APC.",
+    "command": "bradley.quickrespawn {0|1}",
+    "commandUsage": "bradley.quickrespawn 1"
+  },
+  {
+    "name": "Set Bradley Respawn Delay",
+    "description": "Controls the respawn delay for Bradley APC.",
+    "command": "bradley.respawndelayminutes {minutes}",
+    "commandUsage": "bradley.respawndelayminutes 10"
+  },
+  {
+    "name": "Set Bradley Respawn Variance",
+    "description": "Controls the respawn variance for Bradley APC.",
+    "command": "bradley.respawndelayvariance {minutes}",
+    "commandUsage": "bradley.respawndelayvariance 5"
+  },
+  {
+    "name": "Set Heli Accuracy",
+    "description": "Controls Patrol Helicopter bullet accuracy.",
+    "command": "heli.bulletaccuracy {value}",
+    "commandUsage": "heli.bulletaccuracy 0.5"
+  },
+  {
+    "name": "Set Heli Damage Scale",
+    "description": "Scales Patrol Helicopter damage output.",
+    "command": "heli.bulletdamagescale {value}",
+    "commandUsage": "heli.bulletdamagescale 1.5"
+  },
+  {
+    "name": "Set Chinook Drop Zone",
+    "description": "Sets the monument used for the next locked crate drop.",
+    "command": "dropcrate.heli_setdropzone {monument_id}",
+    "commandUsage": "dropcrate.heli_setdropzone airfield_1"
+  },
+  {
+    "name": "Get Event Remaining Time",
+    "description": "Displays the remaining time for an active event.",
+    "command": "events.remainingtime {event_name}",
+    "commandUsage": "events.remainingtime event_cargoship"
+  },
+  {
+    "name": "Set Event Cooldown Multiplier",
+    "description": "Scales the cooldown time of an event.",
+    "command": "events.cooldowntimemultiplier {event_name} {multiplier}",
+    "commandUsage": "events.cooldowntimemultiplier event_cargoship 0.5"
+  },
+  {
+    "name": "Get Event Cooldown",
+    "description": "Displays the cooldown time of an event.",
+    "command": "events.cooldowntime {event_name}",
+    "commandUsage": "events.cooldowntime event_cargoship"
+  },
+  {
+    "name": "Disable Event",
+    "description": "Disables a specified event.",
+    "command": "activeevent {event_name} false",
+    "commandUsage": "activeevent event_cargoship false"
+  },
+  {
+    "name": "List Active Events",
+    "description": "Displays all active events on the server.",
+    "command": "events.activeevent",
+    "commandUsage": "events.activeevent"
+  },
+  {
+    "name": "Start Special Event",
+    "description": "Starts a special server event.",
+    "command": "events.start_special {event_name}",
+    "commandUsage": "events.start_special Xmas"
+  },
+  {
+    "name": "Pause Special Event",
+    "description": "Pauses the active special event.",
+    "command": "events.pause_special {0|1}",
+    "commandUsage": "events.pause_special 1"
+  },
+  {
+    "name": "Stop Special Event",
+    "description": "Stops a special event.",
+    "command": "events.stop_special {event_name}",
+    "commandUsage": "events.stop_special Xmas"
+  },
+  {
+    "name": "List Special Events",
+    "description": "Displays all available special events.",
+    "command": "events.list_special",
+    "commandUsage": "events.list_special"
+  },
+  {
+    "name": "Set Scarecrow Damage Scale",
+    "description": "Scales body damage dealt to scarecrows.",
+    "command": "halloween.scarecrow_body_dmg_modifier {value}",
+    "commandUsage": "halloween.scarecrow_body_dmg_modifier 2"
+  },
+  {
+    "name": "Toggle Scarecrow Beancans",
+    "description": "Enables or disables scarecrow beancan throwing.",
+    "command": "halloween.scarecrows_throw_beancans {0|1}",
+    "commandUsage": "halloween.scarecrows_throw_beancans 1"
+  },
+  {
+    "name": "Set Xmas Gifts Per Player",
+    "description": "Controls how many presents spawn per player during Xmas events.",
+    "command": "xmas.giftsperplayer {amount}",
+    "commandUsage": "xmas.giftsperplayer 3"
+  }
+]

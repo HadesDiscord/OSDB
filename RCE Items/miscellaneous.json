@@ -1,0 +1,46 @@
+[
+  {
+    "itemname": "Flame Turret",
+    "shortname": "flameturret"
+  },
+  {
+    "itemname": "Landmine",
+    "shortname": "trap.landmine"
+  },
+  {
+    "itemname": "Shotgun Trap",
+    "shortname": "guntrap"
+  },
+  {
+    "itemname": "Snap Trap",
+    "shortname": "trap.bear"
+  },
+  {
+    "itemname": "Wooden Floor Spikes",
+    "shortname": "spikes.floor"
+  },
+  {
+    "itemname": "Blue Keycard",
+    "shortname": "keycard_blue"
+  },
+  {
+    "itemname": "Door Key",
+    "shortname": "door.key"
+  },
+  {
+    "itemname": "Green Keycard",
+    "shortname": "keycard_green"
+  },
+  {
+    "itemname": "Guitar",
+    "shortname": "fun.guitar"
+  },
+  {
+    "itemname": "Note",
+    "shortname": "note"
+  },
+  {
+    "itemname": "Red Keycard",
+    "shortname": "keycard_red"
+  }
+]

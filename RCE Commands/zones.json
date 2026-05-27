@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Create Custom Zone",
+    "description": "Creates a custom zone using configurable arguments.",
+    "command": "zones.createcustomzone {coords_size_params}",
+    "commandUsage": "zones.createcustomzone SafeZone true true false 50 0 0 0 0 0"
+  },
+  {
+    "name": "Edit Custom Zone",
+    "description": "Edits a custom zone setting.",
+    "command": "zones.editcustomzone {zone_name} {setting} {value}",
+    "commandUsage": "zones.editcustomzone SafeZone Radius 100"
+  },
+  {
+    "name": "Custom Zone Information",
+    "description": "Displays information about a custom zone.",
+    "command": "zones.customzoneinfo {zone_name}",
+    "commandUsage": "zones.customzoneinfo SafeZone"
+  },
+  {
+    "name": "List Custom Zones",
+    "description": "Displays all custom zones.",
+    "command": "zones.listcustomzones",
+    "commandUsage": "zones.listcustomzones"
+  },
+  {
+    "name": "Delete Custom Zone",
+    "description": "Deletes a custom zone.",
+    "command": "zones.deletecustomzone {zone_name}",
+    "commandUsage": "zones.deletecustomzone SafeZone"
+  }
+]

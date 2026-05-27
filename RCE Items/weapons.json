@@ -1,0 +1,214 @@
+[
+  {
+    "itemname": "Burst Module",
+    "shortname": "weapon.mod.burstmodule"
+  },
+  {
+    "itemname": "Extended Magazine",
+    "shortname": "weapon.mod.extendedmags"
+  },
+  {
+    "itemname": "Holosight",
+    "shortname": "weapon.mod.holosight"
+  },
+  {
+    "itemname": "Muzzle Boost",
+    "shortname": "weapon.mod.muzzleboost"
+  },
+  {
+    "itemname": "Muzzle Brake",
+    "shortname": "weapon.mod.muzzlebrake"
+  },
+  {
+    "itemname": "Simple Handmade Sight",
+    "shortname": "weapon.mod.simplesight"
+  },
+  {
+    "itemname": "Silencer",
+    "shortname": "weapon.mod.silencer"
+  },
+  {
+    "itemname": "Weapon Flashlight",
+    "shortname": "weapon.mod.flashlight"
+  },
+  {
+    "itemname": "Weapon Lasersight",
+    "shortname": "weapon.mod.lasersight"
+  },
+  {
+    "itemname": "Assault Rifle",
+    "shortname": "rifle.ak"
+  },
+  {
+    "itemname": "Beancan Grenade",
+    "shortname": "grenade.beancan"
+  },
+  {
+    "itemname": "Bolt Action Rifle",
+    "shortname": "rifle.bolt"
+  },
+  {
+    "itemname": "Bone Club",
+    "shortname": "bone.club"
+  },
+  {
+    "itemname": "Bone Knife",
+    "shortname": "knife.bone"
+  },
+  {
+    "itemname": "Combat Knife",
+    "shortname": "knife.combat"
+  },
+  {
+    "itemname": "Compound Bow",
+    "shortname": "bow.compound"
+  },
+  {
+    "itemname": "Crossbow",
+    "shortname": "crossbow"
+  },
+  {
+    "itemname": "Custom SMG",
+    "shortname": "smg.2"
+  },
+  {
+    "itemname": "Double Barrel Shotgun",
+    "shortname": "shotgun.double"
+  },
+  {
+    "itemname": "Eoka Pistol",
+    "shortname": "pistol.eoka"
+  },
+  {
+    "itemname": "F1 Grenade",
+    "shortname": "grenade.f1"
+  },
+  {
+    "itemname": "Flame Thrower",
+    "shortname": "flamethrower"
+  },
+  {
+    "itemname": "Flashbang",
+    "shortname": "grenade.flashbang"
+  },
+  {
+    "itemname": "HMLMG",
+    "shortname": "hmlmg"
+  },
+  {
+    "itemname": "Hunting Bow",
+    "shortname": "bow.hunting"
+  },
+  {
+    "itemname": "L96 Rifle",
+    "shortname": "rifle.l96"
+  },
+  {
+    "itemname": "Longsword",
+    "shortname": "longsword"
+  },
+  {
+    "itemname": "LR-300 Assault Rifle",
+    "shortname": "rifle.lr300"
+  },
+  {
+    "itemname": "M249",
+    "shortname": "lmg.m249"
+  },
+  {
+    "itemname": "M39 Rifle",
+    "shortname": "rifle.m39"
+  },
+  {
+    "itemname": "M92 Pistol",
+    "shortname": "pistol.m92"
+  },
+  {
+    "itemname": "Mace",
+    "shortname": "mace"
+  },
+  {
+    "itemname": "Machete",
+    "shortname": "machete"
+  },
+  {
+    "itemname": "Molotov Cocktail",
+    "shortname": "grenade.molotov"
+  },
+  {
+    "itemname": "MP5A4",
+    "shortname": "smg.mp5"
+  },
+  {
+    "itemname": "Multiple Grenade Launcher",
+    "shortname": "multiplegrenadelauncher"
+  },
+  {
+    "itemname": "Nailgun",
+    "shortname": "pistol.nailgun"
+  },
+  {
+    "itemname": "Paddle",
+    "shortname": "paddle"
+  },
+  {
+    "itemname": "Prototype 17",
+    "shortname": "pistol.prototype17"
+  },
+  {
+    "itemname": "Pump Shotgun",
+    "shortname": "shotgun.pump"
+  },
+  {
+    "itemname": "Python Revolver",
+    "shortname": "pistol.python"
+  },
+  {
+    "itemname": "Revolver",
+    "shortname": "pistol.revolver"
+  },
+  {
+    "itemname": "Rocket Launcher",
+    "shortname": "rocket.launcher"
+  },
+  {
+    "itemname": "Salvaged Cleaver",
+    "shortname": "salvaged.cleaver"
+  },
+  {
+    "itemname": "Salvaged Sword",
+    "shortname": "salvaged.sword"
+  },
+  {
+    "itemname": "Semi-Automatic Pistol",
+    "shortname": "pistol.semiauto"
+  },
+  {
+    "itemname": "Semi-Automatic Rifle",
+    "shortname": "rifle.semiauto"
+  },
+  {
+    "itemname": "Spas-12 Shotgun",
+    "shortname": "shotgun.spas12"
+  },
+  {
+    "itemname": "Speargun",
+    "shortname": "speargun"
+  },
+  {
+    "itemname": "Stone Spear",
+    "shortname": "spear.stone"
+  },
+  {
+    "itemname": "Thompson",
+    "shortname": "smg.thompson"
+  },
+  {
+    "itemname": "Waterpipe Shotgun",
+    "shortname": "shotgun.waterpipe"
+  },
+  {
+    "itemname": "Wooden Spear",
+    "shortname": "spear.wooden"
+  }
+]

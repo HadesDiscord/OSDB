@@ -1,0 +1,62 @@
+[
+  {
+    "itemname": "Electric Fuse",
+    "shortname": "fuse"
+  },
+  {
+    "itemname": "Empty Propane Tank",
+    "shortname": "propanetank"
+  },
+  {
+    "itemname": "Gears",
+    "shortname": "gears"
+  },
+  {
+    "itemname": "Metal Blade",
+    "shortname": "metalblade"
+  },
+  {
+    "itemname": "Metal Pipe",
+    "shortname": "metalpipe"
+  },
+  {
+    "itemname": "Metal Spring",
+    "shortname": "metalspring"
+  },
+  {
+    "itemname": "Rifle Body",
+    "shortname": "riflebody"
+  },
+  {
+    "itemname": "Road Signs",
+    "shortname": "roadsigns"
+  },
+  {
+    "itemname": "Rope",
+    "shortname": "rope"
+  },
+  {
+    "itemname": "Semi Automatic Body",
+    "shortname": "semibody"
+  },
+  {
+    "itemname": "Sewing Kit",
+    "shortname": "sewingkit"
+  },
+  {
+    "itemname": "Sheet Metal",
+    "shortname": "sheetmetal"
+  },
+  {
+    "itemname": "SMG Body",
+    "shortname": "smgbody"
+  },
+  {
+    "itemname": "Tarp",
+    "shortname": "tarp"
+  },
+  {
+    "itemname": "Tech Trash",
+    "shortname": "techparts"
+  }
+]

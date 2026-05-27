@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Send Server Message",
+    "description": "Sends a message to server chat.",
+    "command": "global.say {text}",
+    "commandUsage": "global.say Welcome to the server!"
+  },
+  {
+    "name": "Kick All Players",
+    "description": "Kicks all players from the server with a reason.",
+    "command": "global.kickall {reason}",
+    "commandUsage": "global.kickall Server restarting"
+  },
+  {
+    "name": "Kick Player",
+    "description": "Kicks a player from the server.",
+    "command": "global.kick {player_name}",
+    "commandUsage": "global.kick U7FH"
+  },
+  {
+    "name": "Ban Player",
+    "description": "Bans a player from the server.",
+    "command": "global.banid {player_name}",
+    "commandUsage": "global.banid U7FH"
+  },
+  {
+    "name": "Unban Player",
+    "description": "Removes a player's ban.",
+    "command": "global.unban {player_name}",
+    "commandUsage": "global.unban U7FH"
+  },
+  {
+    "name": "Extended Ban List",
+    "description": "Displays the extended ban list.",
+    "command": "global.banlistex",
+    "commandUsage": "global.banlistex"
+  },
+  {
+    "name": "Mute Chat",
+    "description": "Mutes a player's text chat.",
+    "command": "global.mutechat {player_name}",
+    "commandUsage": "global.mutechat U7FH"
+  },
+  {
+    "name": "Unmute Chat",
+    "description": "Unmutes a player's text chat.",
+    "command": "global.unmutechat {player_name}",
+    "commandUsage": "global.unmutechat U7FH"
+  },
+  {
+    "name": "Mute Voice",
+    "description": "Mutes a player's voice chat.",
+    "command": "global.mutevoice {player_name}",
+    "commandUsage": "global.mutevoice U7FH"
+  },
+  {
+    "name": "Unmute Voice",
+    "description": "Unmutes a player's voice chat.",
+    "command": "global.unmutevoice {player_name}",
+    "commandUsage": "global.unmutevoice U7FH"
+  },
+  {
+    "name": "Kill Player",
+    "description": "Kills a player.",
+    "command": "global.killplayer {player_name}",
+    "commandUsage": "global.killplayer U7FH"
+  },
+  {
+    "name": "Injure Player",
+    "description": "Injures a player.",
+    "command": "global.injure {player_name}",
+    "commandUsage": "global.injure U7FH"
+  },
+  {
+    "name": "Teleport Position",
+    "description": "Teleports a player to coordinates.",
+    "command": "global.teleportpos {player_name} {x} {y} {z}",
+    "commandUsage": "global.teleportpos U7FH 100 20 300"
+  },
+  {
+    "name": "Teleport Grid",
+    "description": "Teleports players into a grid formation.",
+    "command": "global.teleportgrid {x} {y} {z} {spacing} {perRow}",
+    "commandUsage": "global.teleportgrid 0 0 0 10 5"
+  },
+  {
+    "name": "Toggle Vanish",
+    "description": "Enables or disables vanish for a player.",
+    "command": "global.setvanishother {player_name} {0|1}",
+    "commandUsage": "global.setvanishother U7FH 1"
+  },
+  {
+    "name": "List Users",
+    "description": "Displays all users.",
+    "command": "global.users",
+    "commandUsage": "global.users"
+  },
+  {
+    "name": "List Players",
+    "description": "Displays all online players.",
+    "command": "global.players",
+    "commandUsage": "global.players"
+  },
+  {
+    "name": "Toggle Day View",
+    "description": "Enables permanent daylight view for the player.",
+    "command": "dayview {0|1}",
+    "commandUsage": "dayview 1"
+  },
+  {
+    "name": "Entity Information",
+    "description": "Displays information about the entity you are looking at.",
+    "command": "ent info",
+    "commandUsage": "ent info"
+  },
+  {
+    "name": "Entity Owner",
+    "description": "Displays the owner of the entity you are looking at.",
+    "command": "ent who",
+    "commandUsage": "ent who"
+  },
+  {
+    "name": "Destroy Entity",
+    "description": "Destroys the entity you are looking at.",
+    "command": "ent kill",
+    "commandUsage": "ent kill"
+  },
+  {
+    "name": "Unlock Entity",
+    "description": "Unlocks the targeted lock.",
+    "command": "ent unlock",
+    "commandUsage": "ent unlock"
+  },
+  {
+    "name": "Lock Entity",
+    "description": "Locks the targeted lock.",
+    "command": "ent lock",
+    "commandUsage": "ent lock"
+  },
+  {
+    "name": "Server Information",
+    "description": "Displays server information.",
+    "command": "serverinfo",
+    "commandUsage": "serverinfo"
+  },
+  {
+    "name": "Save Server",
+    "description": "Forces the server to save.",
+    "command": "server.save",
+    "commandUsage": "server.save"
+  },
+  {
+    "name": "Read Server Config",
+    "description": "Reads the server configuration.",
+    "command": "server.readcfg",
+    "commandUsage": "server.readcfg"
+  },
+  {
+    "name": "Frames Per Second",
+    "description": "Displays current server FPS.",
+    "command": "fps",
+    "commandUsage": "fps"
+  },
+  {
+    "name": "Set Server Time",
+    "description": "Sets the server time.",
+    "command": "env.time {0-24}",
+    "commandUsage": "env.time 12"
+  }
+]

@@ -4,7 +4,7 @@
     "description": "Sends a message to server chat.",
     "command": "say {text}",
     "commandUsage": "say Welcome to the server!"
-    "notes": "Can also use line breaks and change size: <br> <size=50"
+    "notes": "Can also use line breaks and change size: <br> <size=50>"
   },
   {
     "name": "Send Server Message",

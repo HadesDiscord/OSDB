@@ -2,6 +2,12 @@
   {
     "name": "Send Server Message",
     "description": "Sends a message to server chat.",
+    "command": "say {text}",
+    "commandUsage": "say Welcome to the server!"
+  },
+  {
+    "name": "Send Server Message",
+    "description": "Sends a message to server chat.",
     "command": "global.say {text}",
     "commandUsage": "global.say Welcome to the server!"
   },

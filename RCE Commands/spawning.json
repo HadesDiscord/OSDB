@@ -132,33 +132,177 @@
     "commandUsage": "entity.spawn cargoshiptest 100 20 300"
   },
   {
-    "name": "Enable Monument Recycler Config",
-    "description": "Enables a recycler spawn configuration for a monument.",
-    "command": "monumentspawns.enableconfig {config_name}",
-    "commandUsage": "monumentspawns.enableconfig dome_recycler"
+    "name": "Spawn Ammunition Crate",
+    "description": "Spawns an ammunition crate.",
+    "command": "entity.spawn crate_ammunition {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_ammunition 100 20 300"
   },
   {
-    "name": "Disable Monument Recycler Config",
-    "description": "Disables a recycler spawn configuration for a monument.",
-    "command": "monumentspawns.disableconfig {config_name}",
-    "commandUsage": "monumentspawns.disableconfig dome_recycler"
+    "name": "Spawn Basic Crate",
+    "description": "Spawns a basic crate.",
+    "command": "entity.spawn crate_basic {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_basic 100 20 300"
   },
   {
-    "name": "Force Spawn Monument Recycler Config",
-    "description": "Forces a recycler spawn configuration to spawn immediately.",
-    "command": "monumentspawns.forcespawnconfig {config_name}",
-    "commandUsage": "monumentspawns.forcespawnconfig dome_recycler"
+    "name": "Spawn Food Crate 1",
+    "description": "Spawns a food crate.",
+    "command": "entity.spawn crate_food_1 {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_food_1 100 20 300"
   },
   {
-    "name": "Get Monument Recycler Configs",
-    "description": "Displays all monument recycler configurations.",
-    "command": "monumentspawns.getconfigs",
-    "commandUsage": "monumentspawns.getconfigs"
+    "name": "Spawn Food Crate 2",
+    "description": "Spawns a food crate.",
+    "command": "entity.spawn crate_food_2 {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_food_2 100 20 300"
   },
   {
-    "name": "Get Enabled Monument Recycler Configs",
-    "description": "Displays all enabled monument recycler configurations.",
-    "command": "monumentspawns.getenabledconfigs",
-    "commandUsage": "monumentspawns.getenabledconfigs"
+    "name": "Spawn Fuel Crate",
+    "description": "Spawns a fuel crate.",
+    "command": "entity.spawn crate_fuel {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_fuel 100 20 300"
+  },
+  {
+    "name": "Spawn Medical Crate Static",
+    "description": "Spawns a medical crate.",
+    "command": "entity.spawn crate_medical {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_medical 100 20 300"
+  },
+  {
+    "name": "Spawn Cube Crate 2",
+    "description": "Spawns a cube crate.",
+    "command": "entity.spawn crate_normal_2 {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_normal_2 100 20 300"
+  },
+  {
+    "name": "Spawn Underwater Crate Large",
+    "description": "Spawns a large underwater crate.",
+    "command": "entity.spawn crate_underwater_advanced {x} {y} {z}",
+    "commandUsage": "entity.spawn crate_underwater_advanced 100 20 300"
+  },
+  {
+    "name": "Spawn Food Box",
+    "description": "Spawns a food box.",
+    "command": "entity.spawn foodbox {x} {y} {z}",
+    "commandUsage": "entity.spawn foodbox 100 20 300"
+  },
+  {
+    "name": "Spawn Barrel 2",
+    "description": "Spawns a loot barrel.",
+    "command": "entity.spawn loot_barrel_2 {x} {y} {z}",
+    "commandUsage": "entity.spawn loot_barrel_2 100 20 300"
+  },
+  {
+    "name": "Spawn Barrel 3",
+    "description": "Spawns a loot barrel.",
+    "command": "entity.spawn loot-barrel-1 {x} {y} {z}",
+    "commandUsage": "entity.spawn loot-barrel-1 100 20 300"
+  },
+  {
+    "name": "Spawn Oil Barrel",
+    "description": "Spawns an oil barrel.",
+    "command": "entity.spawn oil_barrel {x} {y} {z}",
+    "commandUsage": "entity.spawn oil_barrel 100 20 300"
+  },
+  {
+    "name": "Spawn Wood Storage Box",
+    "description": "Spawns a wooden storage box.",
+    "command": "entity.spawn woodbox_deployed {x} {y} {z}",
+    "commandUsage": "entity.spawn woodbox_deployed 100 20 300"
+  },
+  {
+    "name": "Spawn Keycard Reader",
+    "description": "Spawns a keycard reader.",
+    "command": "entity.spawn cardreader {x} {y} {z}",
+    "commandUsage": "entity.spawn cardreader 100 20 300"
+  },
+  {
+    "name": "Spawn Blue Keycard Pickup",
+    "description": "Spawns a blue keycard pickup.",
+    "command": "entity.spawn keycard_blue_pickup.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn keycard_blue_pickup.entity 100 20 300"
+  },
+  {
+    "name": "Spawn Green Keycard Pickup",
+    "description": "Spawns a green keycard pickup.",
+    "command": "entity.spawn keycard_green_pickup.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn keycard_green_pickup.entity 100 20 300"
+  },
+  {
+    "name": "Spawn Red Keycard Pickup",
+    "description": "Spawns a red keycard pickup.",
+    "command": "entity.spawn keycard_red_pickup.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn keycard_red_pickup.entity 100 20 300"
+  },
+  {
+    "name": "Spawn SAM Static",
+    "description": "Spawns a static SAM Site.",
+    "command": "entity.spawn sam_static {x} {y} {z}",
+    "commandUsage": "entity.spawn sam_static 100 20 300"
+  },
+  {
+    "name": "Spawn Toilet",
+    "description": "Spawns a toilet.",
+    "command": "entity.spawn toilet_b.static {x} {y} {z}",
+    "commandUsage": "entity.spawn toilet_b.static 100 20 300"
+  },
+  {
+    "name": "Spawn Water Well",
+    "description": "Spawns a water well.",
+    "command": "entity.spawn waterwellstatic {x} {y} {z}",
+    "commandUsage": "entity.spawn waterwellstatic 100 20 300"
+  },
+  {
+    "name": "Spawn Workbench 1 Static",
+    "description": "Spawns a static Tier 1 Workbench.",
+    "command": "entity.spawn workbench1.static {x} {y} {z}",
+    "commandUsage": "entity.spawn workbench1.static 100 20 300"
+  },
+  {
+    "name": "Spawn Workbench 2 Static",
+    "description": "Spawns a static Tier 2 Workbench.",
+    "command": "entity.spawn workbench2.static {x} {y} {z}",
+    "commandUsage": "entity.spawn workbench2.static 100 20 300"
+  },
+  {
+    "name": "Spawn Workbench 3 Static",
+    "description": "Spawns a static Tier 3 Workbench.",
+    "command": "entity.spawn workbench3.static {x} {y} {z}",
+    "commandUsage": "entity.spawn workbench3.static 100 20 300"
+  },
+  {
+    "name": "Spawn Bear",
+    "description": "Spawns a bear NPC.",
+    "command": "entity.spawn bear {x} {y} {z}",
+    "commandUsage": "entity.spawn bear 100 20 300"
+  },
+  {
+    "name": "Spawn Boar",
+    "description": "Spawns a boar NPC.",
+    "command": "entity.spawn boar {x} {y} {z}",
+    "commandUsage": "entity.spawn boar 100 20 300"
+  },
+  {
+    "name": "Spawn Chicken",
+    "description": "Spawns a chicken NPC.",
+    "command": "entity.spawn chicken {x} {y} {z}",
+    "commandUsage": "entity.spawn chicken 100 20 300"
+  },
+  {
+    "name": "Spawn Shark",
+    "description": "Spawns a shark NPC.",
+    "command": "entity.spawn simpleshark {x} {y} {z}",
+    "commandUsage": "entity.spawn simpleshark 100 20 300"
+  },
+  {
+    "name": "Spawn Stag",
+    "description": "Spawns a stag NPC.",
+    "command": "entity.spawn stag {x} {y} {z}",
+    "commandUsage": "entity.spawn stag 100 20 300"
+  },
+  {
+    "name": "Spawn Wolf",
+    "description": "Spawns a wolf NPC.",
+    "command": "entity.spawn wolf {x} {y} {z}",
+    "commandUsage": "entity.spawn wolf 100 20 300"
   }
 ]

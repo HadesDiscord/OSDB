@@ -132,6 +132,36 @@
     "commandUsage": "entity.spawn cargoshiptest 100 20 300"
   },
   {
+    "name": "Enable Monument Recycler Config",
+    "description": "Enables a recycler spawn configuration for a monument.",
+    "command": "monumentspawns.enableconfig {config_name}",
+    "commandUsage": "monumentspawns.enableconfig dome_recycler"
+  },
+  {
+    "name": "Disable Monument Recycler Config",
+    "description": "Disables a recycler spawn configuration for a monument.",
+    "command": "monumentspawns.disableconfig {config_name}",
+    "commandUsage": "monumentspawns.disableconfig dome_recycler"
+  },
+  {
+    "name": "Force Spawn Monument Recycler Config",
+    "description": "Forces a recycler spawn configuration to spawn immediately.",
+    "command": "monumentspawns.forcespawnconfig {config_name}",
+    "commandUsage": "monumentspawns.forcespawnconfig dome_recycler"
+  },
+  {
+    "name": "Get Monument Recycler Configs",
+    "description": "Displays all monument recycler configurations.",
+    "command": "monumentspawns.getconfigs",
+    "commandUsage": "monumentspawns.getconfigs"
+  },
+  {
+    "name": "Get Enabled Monument Recycler Configs",
+    "description": "Displays all enabled monument recycler configurations.",
+    "command": "monumentspawns.getenabledconfigs",
+    "commandUsage": "monumentspawns.getenabledconfigs"
+  },
+  {
     "name": "Spawn Ammunition Crate",
     "description": "Spawns an ammunition crate.",
     "command": "entity.spawn crate_ammunition {x} {y} {z}",
@@ -145,13 +175,13 @@
   },
   {
     "name": "Spawn Food Crate 1",
-    "description": "Spawns a food crate.",
+    "description": "Spawns food crate 1.",
     "command": "entity.spawn crate_food_1 {x} {y} {z}",
     "commandUsage": "entity.spawn crate_food_1 100 20 300"
   },
   {
     "name": "Spawn Food Crate 2",
-    "description": "Spawns a food crate.",
+    "description": "Spawns food crate 2.",
     "command": "entity.spawn crate_food_2 {x} {y} {z}",
     "commandUsage": "entity.spawn crate_food_2 100 20 300"
   },
@@ -162,14 +192,14 @@
     "commandUsage": "entity.spawn crate_fuel 100 20 300"
   },
   {
-    "name": "Spawn Medical Crate Static",
-    "description": "Spawns a medical crate.",
+    "name": "Spawn Medical Crate Entity",
+    "description": "Spawns a medical crate entity.",
     "command": "entity.spawn crate_medical {x} {y} {z}",
     "commandUsage": "entity.spawn crate_medical 100 20 300"
   },
   {
     "name": "Spawn Cube Crate 2",
-    "description": "Spawns a cube crate.",
+    "description": "Spawns cube crate 2.",
     "command": "entity.spawn crate_normal_2 {x} {y} {z}",
     "commandUsage": "entity.spawn crate_normal_2 100 20 300"
   },
@@ -187,13 +217,13 @@
   },
   {
     "name": "Spawn Barrel 2",
-    "description": "Spawns a loot barrel.",
+    "description": "Spawns loot barrel 2.",
     "command": "entity.spawn loot_barrel_2 {x} {y} {z}",
     "commandUsage": "entity.spawn loot_barrel_2 100 20 300"
   },
   {
     "name": "Spawn Barrel 3",
-    "description": "Spawns a loot barrel.",
+    "description": "Spawns loot barrel 3.",
     "command": "entity.spawn loot-barrel-1 {x} {y} {z}",
     "commandUsage": "entity.spawn loot-barrel-1 100 20 300"
   },
@@ -205,7 +235,7 @@
   },
   {
     "name": "Spawn Wood Storage Box",
-    "description": "Spawns a wooden storage box.",
+    "description": "Spawns a wood storage box.",
     "command": "entity.spawn woodbox_deployed {x} {y} {z}",
     "commandUsage": "entity.spawn woodbox_deployed 100 20 300"
   },
@@ -234,7 +264,7 @@
     "commandUsage": "entity.spawn keycard_red_pickup.entity 100 20 300"
   },
   {
-    "name": "Spawn SAM Static",
+    "name": "Spawn SAM Site Static",
     "description": "Spawns a static SAM Site.",
     "command": "entity.spawn sam_static {x} {y} {z}",
     "commandUsage": "entity.spawn sam_static 100 20 300"
@@ -253,56 +283,266 @@
   },
   {
     "name": "Spawn Workbench 1 Static",
-    "description": "Spawns a static Tier 1 Workbench.",
+    "description": "Spawns a static workbench 1.",
     "command": "entity.spawn workbench1.static {x} {y} {z}",
     "commandUsage": "entity.spawn workbench1.static 100 20 300"
   },
   {
     "name": "Spawn Workbench 2 Static",
-    "description": "Spawns a static Tier 2 Workbench.",
+    "description": "Spawns a static workbench 2.",
     "command": "entity.spawn workbench2.static {x} {y} {z}",
     "commandUsage": "entity.spawn workbench2.static 100 20 300"
   },
   {
     "name": "Spawn Workbench 3 Static",
-    "description": "Spawns a static Tier 3 Workbench.",
+    "description": "Spawns a static workbench 3.",
     "command": "entity.spawn workbench3.static {x} {y} {z}",
     "commandUsage": "entity.spawn workbench3.static 100 20 300"
   },
   {
     "name": "Spawn Bear",
-    "description": "Spawns a bear NPC.",
+    "description": "Spawns a bear.",
     "command": "entity.spawn bear {x} {y} {z}",
     "commandUsage": "entity.spawn bear 100 20 300"
   },
   {
     "name": "Spawn Boar",
-    "description": "Spawns a boar NPC.",
+    "description": "Spawns a boar.",
     "command": "entity.spawn boar {x} {y} {z}",
     "commandUsage": "entity.spawn boar 100 20 300"
   },
   {
     "name": "Spawn Chicken",
-    "description": "Spawns a chicken NPC.",
+    "description": "Spawns a chicken.",
     "command": "entity.spawn chicken {x} {y} {z}",
     "commandUsage": "entity.spawn chicken 100 20 300"
   },
   {
     "name": "Spawn Shark",
-    "description": "Spawns a shark NPC.",
+    "description": "Spawns a shark.",
     "command": "entity.spawn simpleshark {x} {y} {z}",
     "commandUsage": "entity.spawn simpleshark 100 20 300"
   },
   {
     "name": "Spawn Stag",
-    "description": "Spawns a stag NPC.",
+    "description": "Spawns a stag.",
     "command": "entity.spawn stag {x} {y} {z}",
     "commandUsage": "entity.spawn stag 100 20 300"
   },
   {
     "name": "Spawn Wolf",
-    "description": "Spawns a wolf NPC.",
+    "description": "Spawns a wolf.",
     "command": "entity.spawn wolf {x} {y} {z}",
     "commandUsage": "entity.spawn wolf 100 20 300"
+  },
+  {
+    "name": "Spawn 2 Module Car Premade",
+    "description": "Spawns a premade 2 module car.",
+    "command": "entity.spawn 2module_car_spawned.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn 2module_car_spawned.entity 100 20 300"
+  },
+  {
+    "name": "Spawn 3 Module Car Premade",
+    "description": "Spawns a premade 3 module car.",
+    "command": "entity.spawn 3module_car_spawned.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn 3module_car_spawned.entity 100 20 300"
+  },
+  {
+    "name": "Spawn 4 Module Car Premade",
+    "description": "Spawns a premade 4 module car.",
+    "command": "entity.spawn 4module_car_spawned.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn 4module_car_spawned.entity 100 20 300"
+  },
+  {
+    "name": "Spawn Attack Helicopter",
+    "description": "Spawns an attack helicopter.",
+    "command": "entity.spawn attackhelicopter.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn attackhelicopter.entity 100 20 300"
+  },
+  {
+    "name": "Spawn 2 Module Car Empty",
+    "description": "Spawns an empty 2 module car chassis.",
+    "command": "entity.spawn car_chassis_2module.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn car_chassis_2module.entity 100 20 300"
+  },
+  {
+    "name": "Spawn 3 Module Car Empty",
+    "description": "Spawns an empty 3 module car chassis.",
+    "command": "entity.spawn car_chassis_3module.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn car_chassis_3module.entity 100 20 300"
+  },
+  {
+    "name": "Spawn 4 Module Car Empty",
+    "description": "Spawns an empty 4 module car chassis.",
+    "command": "entity.spawn car_chassis_4module.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn car_chassis_4module.entity 100 20 300"
+  },
+  {
+    "name": "Spawn Hot Air Balloon",
+    "description": "Spawns a hot air balloon.",
+    "command": "entity.spawn hotairballoon {x} {y} {z}",
+    "commandUsage": "entity.spawn hotairballoon 100 20 300"
+  },
+  {
+    "name": "Spawn Kayak",
+    "description": "Spawns a kayak.",
+    "command": "entity.spawn kayak {x} {y} {z}",
+    "commandUsage": "entity.spawn kayak 100 20 300"
+  },
+  {
+    "name": "Spawn Minicopter",
+    "description": "Spawns a minicopter.",
+    "command": "entity.spawn minicopter.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn minicopter.entity 100 20 300"
+  },
+  {
+    "name": "Spawn Motorbike",
+    "description": "Spawns a motorbike.",
+    "command": "entity.spawn motorbike {x} {y} {z}",
+    "commandUsage": "entity.spawn motorbike 100 20 300"
+  },
+  {
+    "name": "Spawn Motorbike Sidecar",
+    "description": "Spawns a motorbike with sidecar.",
+    "command": "entity.spawn motorbike_sidecar {x} {y} {z}",
+    "commandUsage": "entity.spawn motorbike_sidecar 100 20 300"
+  },
+  {
+    "name": "Spawn Pedal Bike",
+    "description": "Spawns a pedal bike.",
+    "command": "entity.spawn pedalbike {x} {y} {z}",
+    "commandUsage": "entity.spawn pedalbike 100 20 300"
+  },
+  {
+    "name": "Spawn Pedal Trike",
+    "description": "Spawns a pedal trike.",
+    "command": "entity.spawn pedaltrike {x} {y} {z}",
+    "commandUsage": "entity.spawn pedaltrike 100 20 300"
+  },
+  {
+    "name": "Spawn Rowboat",
+    "description": "Spawns a rowboat.",
+    "command": "entity.spawn rowboat {x} {y} {z}",
+    "commandUsage": "entity.spawn rowboat 100 20 300"
+  },
+  {
+    "name": "Spawn Scrap Transport Helicopter",
+    "description": "Spawns a scrap transport helicopter.",
+    "command": "entity.spawn scraptransporthelicopter {x} {y} {z}",
+    "commandUsage": "entity.spawn scraptransporthelicopter 100 20 300"
+  },
+  {
+    "name": "Spawn Test Ridable Horse",
+    "description": "Spawns a ridable horse entity.",
+    "command": "entity.spawn testridablehorse {x} {y} {z}",
+    "commandUsage": "entity.spawn testridablehorse 100 20 300"
+  },
+  {
+    "name": "Spawn Cargo Ship Military Transport",
+    "description": "Spawns cargo ship military transport.",
+    "command": "entity.spawn cargoshipdynamic1 {x} {y} {z}",
+    "commandUsage": "entity.spawn cargoshipdynamic1 100 20 300"
+  },
+  {
+    "name": "Spawn Cargo Ship Containers",
+    "description": "Spawns cargo ship containers.",
+    "command": "entity.spawn cargoshipdynamic2 {x} {y} {z}",
+    "commandUsage": "entity.spawn cargoshipdynamic2 100 20 300"
+  },
+  {
+    "name": "Spawn Magnet Crane",
+    "description": "Spawns a magnet crane.",
+    "command": "entity.spawn magnetcrane.entity {x} {y} {z}",
+    "commandUsage": "entity.spawn magnetcrane.entity 100 20 300"
+  },
+  {
+    "name": "Spawn Metal Nodette",
+    "description": "Spawns a metal collectable nodette.",
+    "command": "entity.spawn metal-collectable {x} {y} {z}",
+    "commandUsage": "entity.spawn metal-collectable 100 20 300"
+  },
+  {
+    "name": "Spawn Metal Node",
+    "description": "Spawns a metal ore node.",
+    "command": "entity.spawn metal-ore {x} {y} {z}",
+    "commandUsage": "entity.spawn metal-ore 100 20 300"
+  },
+  {
+    "name": "Spawn Medium Palm Tree",
+    "description": "Spawns a medium palm tree.",
+    "command": "entity.spawn palm_tree_med_a_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_med_a_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Short Palm Tree A",
+    "description": "Spawns short palm tree A.",
+    "command": "entity.spawn palm_tree_short_a_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_short_a_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Short Palm Tree B",
+    "description": "Spawns short palm tree B.",
+    "command": "entity.spawn palm_tree_short_b_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_short_b_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Short Palm Tree C",
+    "description": "Spawns short palm tree C.",
+    "command": "entity.spawn palm_tree_short_c_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_short_c_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Small Palm Tree A",
+    "description": "Spawns small palm tree A.",
+    "command": "entity.spawn palm_tree_small_a_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_small_a_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Small Palm Tree B",
+    "description": "Spawns small palm tree B.",
+    "command": "entity.spawn palm_tree_small_b_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_small_b_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Small Palm Tree C",
+    "description": "Spawns small palm tree C.",
+    "command": "entity.spawn palm_tree_small_c_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_small_c_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Tall Palm Tree A",
+    "description": "Spawns tall palm tree A.",
+    "command": "entity.spawn palm_tree_tall_a_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_tall_a_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Tall Palm Tree B",
+    "description": "Spawns tall palm tree B.",
+    "command": "entity.spawn palm_tree_tall_b_entity {x} {y} {z}",
+    "commandUsage": "entity.spawn palm_tree_tall_b_entity 100 20 300"
+  },
+  {
+    "name": "Spawn Stone Nodette",
+    "description": "Spawns a stone collectable nodette.",
+    "command": "entity.spawn stone-collectable {x} {y} {z}",
+    "commandUsage": "entity.spawn stone-collectable 100 20 300"
+  },
+  {
+    "name": "Spawn Stone Node",
+    "description": "Spawns a stone ore node.",
+    "command": "entity.spawn stone-ore {x} {y} {z}",
+    "commandUsage": "entity.spawn stone-ore 100 20 300"
+  },
+  {
+    "name": "Spawn Sulphur Nodette",
+    "description": "Spawns a sulfur collectable nodette.",
+    "command": "entity.spawn sulfur-collectable {x} {y} {z}",
+    "commandUsage": "entity.spawn sulfur-collectable 100 20 300"
+  },
+  {
+    "name": "Spawn Sulphur Node",
+    "description": "Spawns a sulfur ore node.",
+    "command": "entity.spawn sulfur-ore {x} {y} {z}",
+    "commandUsage": "entity.spawn sulfur-ore 100 20 300"
   }
 ]

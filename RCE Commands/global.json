@@ -167,4 +167,10 @@
     "command": "env.time {0-24}",
     "commandUsage": "env.time 12"
   }
+  {,
+   "name": "Chat Search"
+   "description": "Search logs for keyword"
+   "command": "chat.search"
+   "commandUsage": "chat.search U7FH"
+  }
 ]

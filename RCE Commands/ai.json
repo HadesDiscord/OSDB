@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Add Ignore Player",
+    "description": "Adds the target player to the NPC ignore list so they won't be targeted by hostile AI.",
+    "command": "ai.addignoreplayer {player_name}",
+    "commandUsage": "ai.addignoreplayer U7FH"
+  },
+  {
+    "name": "Remove Ignore Player",
+    "description": "Removes the target player from the NPC ignore list, making them targetable again.",
+    "command": "ai.removeignoreplayer {player_name}",
+    "commandUsage": "ai.removeignoreplayer U7FH"
+  },
+  {
+    "name": "Clear Ignored Players",
+    "description": "Clears the entire NPC ignore list, making all players targetable by AI.",
+    "command": "ai.clearignoredplayers",
+    "commandUsage": "ai.clearignoredplayers"
+  },
+  {
+    "name": "Print Ignored Players",
+    "description": "Prints the list of currently ignored players to the console.",
+    "command": "ai.printignoredplayers",
+    "commandUsage": "ai.printignoredplayers"
+  },
+  {
+    "name": "Kill All Animals",
+    "description": "Kills all animals on the server.",
+    "command": "ai.killanimals",
+    "commandUsage": "ai.killanimals"
+  },
+  {
+    "name": "Kill All Scientists",
+    "description": "Kills all scientists on the server.",
+    "command": "ai.killscientists",
+    "commandUsage": "ai.killscientists"
+  },
+  {
+    "name": "Print AI Brain Stats",
+    "description": "Prints the count of active AI brains on the map to the console.",
+    "command": "ai.brainstats",
+    "commandUsage": "ai.brainstats"
+  },
+  {
+    "name": "Print AI Stats",
+    "description": "Prints AI stats including difficulty, damage scale, aim cone, and cooldown scale to the console.",
+    "command": "attackentity.print_ai_stats",
+    "commandUsage": "attackentity.print_ai_stats"
+  }
+]

@@ -20,7 +20,7 @@
   {
     "name": "Toggle Cargo Ship Event",
     "description": "Enables or disables the Cargo Ship event.",
-    "command": "cargoships.event_enabled {0|1}",
+    "command": "cargoships.event_enabled {0-1}",
     "commandUsage": "cargoships.event_enabled 1"
   },
   {

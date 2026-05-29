@@ -180,4 +180,11 @@
    "command": "chat.search"
    "commandUsage": "chat.search U7FH"
   }
+  {,
+   "name": "Chat Tail"
+   "description": "Tail server chats"
+   "command": "chat.tail 100"
+   "commandUsage": "chat.tail 100"
+  }
+  
 ]

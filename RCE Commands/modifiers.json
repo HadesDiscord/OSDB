@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Collection Modifier",
+    "description": "Changes collection rates from collectables such as hemp plants and nodettes.",
+    "command": "modifiers.setmodifier \"{itemname}\" collection \"{scale}\"",
+    "commandUsage": "modifiers.setmodifier \"Stones\" collection \"3\""
+  },
+  {
+    "name": "Cook Amount Modifier",
+    "description": "Changes the yield received when an item is processed in a furnace.",
+    "command": "modifiers.setmodifier \"{itemname}\" cookamount \"{scale}\"",
+    "commandUsage": "modifiers.setmodifier \"metal.refined\" cookamount \"3\""
+  },
+  {
+    "name": "Cook Speed Modifier",
+    "description": "Changes the speed at which an item is processed in a furnace.",
+    "command": "modifiers.setmodifier \"{itemname}\" cookspeed \"{scale}\"",
+    "commandUsage": "modifiers.setmodifier \"metal.ore\" cookspeed \"3\""
+  },
+  {
+    "name": "Craft Speed Modifier",
+    "description": "Changes the crafting speed multiplier of an item.",
+    "command": "modifiers.setmodifier \"{itemname}\" craftspeed \"{scale}\"",
+    "commandUsage": "modifiers.setmodifier \"cupboard.tool\" craftspeed \"2\""
+  },
+  {
+    "name": "Craft Time Modifier",
+    "description": "Overrides the crafting time of an item in seconds.",
+    "command": "modifiers.setmodifier \"{itemname}\" crafttime \"{value}\"",
+    "commandUsage": "modifiers.setmodifier \"cupboard.tool\" crafttime \"10\""
+  },
+  {
+    "name": "Gather Modifier",
+    "description": "Changes direct gathering rates for an item.",
+    "command": "modifiers.setmodifier \"{itemname}\" gather \"{scale}\"",
+    "commandUsage": "modifiers.setmodifier \"Wood\" gather \"2\""
+  },
+  {
+    "name": "Loot Modifier",
+    "description": "Changes loot spawn amounts for an item.",
+    "command": "modifiers.setmodifier \"{itemname}\" loot \"{scale}\"",
+    "commandUsage": "modifiers.setmodifier \"Scrap\" loot \"3\""
+  },
+  {
+    "name": "Tool Modifier",
+    "description": "Changes per-hit gathering rates for a tool.",
+    "command": "modifiers.setmodifier \"{toolname}\" tool \"{scale}\"",
+    "commandUsage": "modifiers.setmodifier \"Hatchet\" tool \"2\""
+  },
+  {
+    "name": "Workbench Level Modifier",
+    "description": "Changes the required workbench level for an item.",
+    "command": "modifiers.setmodifier \"{itemname}\" workbenchlevel \"{value}\"",
+    "commandUsage": "modifiers.setmodifier \"rifle.ak\" workbenchlevel \"1\""
+  },
+  {
+    "name": "Furnace Cook Speed",
+    "description": "Changes furnace cooking speed globally.",
+    "command": "craft.itemcookspeedmultiplier \"{scale}\"",
+    "commandUsage": "craft.itemcookspeedmultiplier \"2\""
+  },
+  {
+    "name": "Furnace Fuel Usage",
+    "description": "Changes furnace fuel consumption globally.",
+    "command": "craft.furnaceusagemultiplier \"{scale}\"",
+    "commandUsage": "craft.furnaceusagemultiplier \"3\""
+  },
+  {
+    "name": "Furnace Output",
+    "description": "Changes furnace output globally.",
+    "command": "craft.furnaceoutputmultiplier \"{scale}\"",
+    "commandUsage": "craft.furnaceoutputmultiplier \"3\""
+  },
+  {
+    "name": "Charcoal Production",
+    "description": "Changes charcoal production rates.",
+    "command": "modifiers.charcoalratescale \"{scale}\"",
+    "commandUsage": "modifiers.charcoalratescale \"3\""
+  },
+  {
+    "name": "Quarry Production",
+    "description": "Changes quarry processing speed.",
+    "command": "modifiers.quarryprocessratescale \"{scale}\"",
+    "commandUsage": "modifiers.quarryprocessratescale \"3\""
+  },
+  {
+    "name": "Crude Oil Efficiency",
+    "description": "Changes crude oil output efficiency.",
+    "command": "modifiers.crudeoiloutputscale \"{scale}\"",
+    "commandUsage": "modifiers.crudeoiloutputscale \"3\""
+  },
+  {
+    "name": "Low Grade Fuel Efficiency",
+    "description": "Changes low grade fuel efficiency.",
+    "command": "modifiers.lowgradeoutputscale \"{scale}\"",
+    "commandUsage": "modifiers.lowgradeoutputscale \"3\""
+  },
+  {
+    "name": "List Item Modifiers",
+    "description": "Lists all active modifiers for a specific item.",
+    "command": "modifiers.listmodifiers \"{itemname}\"",
+    "commandUsage": "modifiers.listmodifiers \"Scrap\""
+  },
+  {
+    "name": "List All Modifiers",
+    "description": "Lists all active modifiers on the server.",
+    "command": "modifiers.listallmodifiers",
+    "commandUsage": "modifiers.listallmodifiers"
+  },
+  {
+    "name": "Clear Item Modifier",
+    "description": "Removes a modifier from a specific item.",
+    "command": "modifiers.clearmodifier \"{itemname}\" \"{modifier}\"",
+    "commandUsage": "modifiers.clearmodifier \"Scrap\" \"loot\""
+  },
+  {
+    "name": "Clear All Item Modifiers",
+    "description": "Removes all modifiers from a specific item.",
+    "command": "modifiers.clearmodifier \"{itemname}\" \"all\"",
+    "commandUsage": "modifiers.clearmodifier \"Scrap\" \"all\""
+  },
+  {
+    "name": "Clear All Modifiers",
+    "description": "Removes all active modifiers from all items.",
+    "command": "modifiers.clearmodifiers",
+    "commandUsage": "modifiers.clearmodifiers"
+  }
+]

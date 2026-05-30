@@ -1,5 +1,11 @@
 [
   {
+    "name": "Delete Locked Crates",
+    "description": "Deletes all actively spawned locked crates on the server.",
+    "command": "entity.deleteentity codelockedhackablecrate",
+    "commandUsage": "entity.deleteentity codelockedhackablecrate 0"
+  },
+  {
     "name": "Delete Player Structures",
     "description": "Deletes all structures owned by a player.",
     "command": "entity.deleteby {player_name}",

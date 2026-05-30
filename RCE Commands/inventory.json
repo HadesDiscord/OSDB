@@ -15,7 +15,7 @@
     "name": "Give Item To Player",
     "description": "Gives an item to a specified player.",
     "command": "inventory.giveto {player_name} {item_shortname} {amount}",
-    "commandUsage": "inventory.giveto U7FH wooden_spear 1"
+    "commandUsage": "inventory.giveto U7FH wood 1"
   },
   {
     "name": "Drop Item To Player",

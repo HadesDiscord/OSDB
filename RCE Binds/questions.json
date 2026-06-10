@@ -1,1 +1,34 @@
-
+[
+  {
+    "name": "Are You Friendly?",
+    "bind": "d11_quick_chat_questions_slot_0"
+  },
+  {
+    "name": "Can I Build Around Here?",
+    "bind": "d11_quick_chat_questions_slot_1"
+  },
+  {
+    "name": "Do You Want To Team Up?",
+    "bind": "d11_quick_chat_questions_slot_2"
+  },
+  {
+    "name": "Do You Need Anything?",
+    "bind": "d11_quick_chat_questions_slot_3"
+  },
+  {
+    "name": "Could You Help Me?",
+    "bind": "d11_quick_chat_questions_slot_4"
+  },
+  {
+    "name": "Want To Trade?",
+    "bind": "d11_quick_chat_questions_slot_5"
+  },
+  {
+    "name": "Who’s There?",
+    "bind": "d11_quick_chat_questions_slot_6"
+  },
+  {
+    "name": "Can I Enter?",
+    "bind": "d11_quick_chat_questions_slot_7"
+  }
+]

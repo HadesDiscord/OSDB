@@ -1,1 +1,34 @@
-
+[
+  {
+    "name": "Follow Me",
+    "bind": "d11_quick_chat_orders_slot_0"
+  },
+  {
+    "name": "Go Away",
+    "bind": "d11_quick_chat_orders_slot_1"
+  },
+  {
+    "name": "Repair This",
+    "bind": "d11_quick_chat_orders_slot_2"
+  },
+  {
+    "name": "Wait Here",
+    "bind": "d11_quick_chat_orders_slot_3"
+  },
+  {
+    "name": "Come In",
+    "bind": "d11_quick_chat_orders_slot_4"
+  },
+  {
+    "name": "Let’s Go!",
+    "bind": "d11_quick_chat_orders_slot_5"
+  },
+  {
+    "name": "Here, Take This…",
+    "bind": "d11_quick_chat_orders_slot_6"
+  },
+  {
+    "name": "Hurry Up!",
+    "bind": "d11_quick_chat_orders_slot_7"
+  }
+]

@@ -1,1 +1,34 @@
-
+[
+  {
+    "name": "We’re Under Attack!",
+    "bind": "d11_quick_chat_combat_slot_0"
+  },
+  {
+    "name": "Retreat!",
+    "bind": "d11_quick_chat_combat_slot_1"
+  },
+  {
+    "name": "Move Out!",
+    "bind": "d11_quick_chat_combat_slot_2"
+  },
+  {
+    "name": "Don’t Shoot!",
+    "bind": "d11_quick_chat_combat_slot_3"
+  },
+  {
+    "name": "Be Careful",
+    "bind": "d11_quick_chat_combat_slot_4"
+  },
+  {
+    "name": "They’re Better Armed",
+    "bind": "d11_quick_chat_combat_slot_5"
+  },
+  {
+    "name": "I’m Out Of Ammo",
+    "bind": "d11_quick_chat_combat_slot_6"
+  },
+  {
+    "name": "I’m Hurt",
+    "bind": "d11_quick_chat_combat_slot_7"
+  }
+]

@@ -1,1 +1,34 @@
-
+[
+  {
+    "name": "Yes",
+    "bind": "d11_quick_chat_responses_slot_0"
+  },
+  {
+    "name": "No",
+    "bind": "d11_quick_chat_responses_slot_1"
+  },
+  {
+    "name": "OK",
+    "bind": "d11_quick_chat_responses_slot_2"
+  },
+  {
+    "name": "Thank You",
+    "bind": "d11_quick_chat_responses_slot_3"
+  },
+  {
+    "name": "No Problem",
+    "bind": "d11_quick_chat_responses_slot_4"
+  },
+  {
+    "name": "Hello",
+    "bind": "d11_quick_chat_responses_slot_5"
+  },
+  {
+    "name": "Goodbye",
+    "bind": "d11_quick_chat_responses_slot_6"
+  },
+  {
+    "name": "I’m Sorry",
+    "bind": "d11_quick_chat_responses_slot_7"
+  }
+]

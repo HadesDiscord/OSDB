@@ -1,1 +1,34 @@
-
+[
+  {
+    "name": "North",
+    "bind": "d11_quick_chat_location_slot_0"
+  },
+  {
+    "name": "North East",
+    "bind": "d11_quick_chat_location_slot_1"
+  },
+  {
+    "name": "East",
+    "bind": "d11_quick_chat_location_slot_2"
+  },
+  {
+    "name": "South East",
+    "bind": "d11_quick_chat_location_slot_3"
+  },
+  {
+    "name": "South",
+    "bind": "d11_quick_chat_location_slot_4"
+  },
+  {
+    "name": "South West",
+    "bind": "d11_quick_chat_location_slot_5"
+  },
+  {
+    "name": "West",
+    "bind": "d11_quick_chat_location_slot_6"
+  },
+  {
+    "name": "North West",
+    "bind": "d11_quick_chat_location_slot_7"
+  }
+]

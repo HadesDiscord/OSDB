@@ -1,1 +1,34 @@
-
+[
+  {
+    "name": "I Have Scrap",
+    "bind": "d11_quick_chat_i_have_phrase_format scrap"
+  },
+  {
+    "name": "I Have Low Grade Fuel",
+    "bind": "d11_quick_chat_i_have_phrase_format lowgradefuel"
+  },
+  {
+    "name": "I Have Food",
+    "bind": "d11_quick_chat_i_have_phrase_format d11_Food"
+  },
+  {
+    "name": "I Have Water",
+    "bind": "d11_quick_chat_i_have_phrase_format water"
+  },
+  {
+    "name": "I Have Hunting Bow",
+    "bind": "d11_quick_chat_i_have_phrase_format bow.hunting"
+  },
+  {
+    "name": "I Have Pickaxe",
+    "bind": "d11_quick_chat_i_have_phrase_format pickaxe"
+  },
+  {
+    "name": "I Have Hatchet",
+    "bind": "d11_quick_chat_i_have_phrase_format hatchet"
+  },
+  {
+    "name": "I Have High Quality Metal",
+    "bind": "d11_quick_chat_i_have_phrase_format metal.refined"
+  }
+]

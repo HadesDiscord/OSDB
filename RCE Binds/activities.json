@@ -1,1 +1,34 @@
-{}
+[
+  {
+    "name": "I’m Going For Stone",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Stone"
+  },
+  {
+    "name": "I’m Going For Wood",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Wood"
+  },
+  {
+    "name": "I’m Going For Metal",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Metal"
+  },
+  {
+    "name": "I’m Going For Food",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Food"
+  },
+  {
+    "name": "I’m Going For Water",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Water"
+  },
+  {
+    "name": "I’m Going For Scrap",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Scrap"
+  },
+  {
+    "name": "I’m Going For Metal Fragments",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Metal_Fragments"
+  },
+  {
+    "name": "I’m Going For Medicine",
+    "bind": "d11_quick_chat_activities_phrase_format d11_Medicine"
+  }
+]

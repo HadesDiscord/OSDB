@@ -1,1 +1,34 @@
-
+[
+  {
+    "name": "We Need To Upgrade The Walls",
+    "bind": "d11_quick_chat_building_slot_0"
+  },
+  {
+    "name": "We Need Beds",
+    "bind": "d11_quick_chat_building_slot_1"
+  },
+  {
+    "name": "I Need Building Permissions",
+    "bind": "d11_quick_chat_building_slot_2"
+  },
+  {
+    "name": "What’s The Door Code?",
+    "bind": "d11_quick_chat_building_slot_3"
+  },
+  {
+    "name": "Can I Have A Key?",
+    "bind": "d11_quick_chat_building_slot_4"
+  },
+  {
+    "name": "We Need A Better Door",
+    "bind": "d11_quick_chat_building_slot_5"
+  },
+  {
+    "name": "Our Upkeep Is Running Low",
+    "bind": "d11_quick_chat_building_slot_6"
+  },
+  {
+    "name": "Which Chest Is Free-Game?",
+    "bind": "d11_quick_chat_building_slot_7"
+  }
+]

@@ -1,32 +1,22 @@
 [
   {
     "name": "Toggle NoClip",
-    "description": "Toggles NoClip mode, allowing players to fly and pass through objects.",
-    "command": "debug.noclip {0|1}",
-    "commandUsage": "debug.noclip 1"
+    "command": "debug.noclip {0|1}"
   },
   {
     "name": "Toggle Item Condition",
-    "description": "Toggles degradation of tools and weapons based on usage.",
-    "command": "debug.disablecondition {0|1}",
-    "commandUsage": "debug.disablecondition 1"
+    "command": "debug.disablecondition {0|1}"
   },
   {
     "name": "Reset Puzzles",
-    "description": "Resets all keycard puzzles in monuments, including their loot.",
-    "command": "debug.puzzlereset",
-    "commandUsage": "debug.puzzlereset"
+    "command": "debug.puzzlereset"
   },
   {
     "name": "Break Held Item",
-    "description": "Breaks the current item in the hands of the player who entered the command.",
-    "command": "debug.breakheld",
-    "commandUsage": "debug.breakheld"
+    "command": "debug.breakheld"
   },
   {
     "name": "Debug Camera",
-    "description": "Activates a free camera with controls for movement, rotation, zoom, and camera speed.",
-    "command": "debug.debugcamera",
-    "commandUsage": "debug.debugcamera"
+    "command": "debug.debugcamera"
   }
 ]

@@ -1,128 +1,86 @@
 [
   {
     "name": "Grant Owner",
-    "description": "Grants owner auth level to a player.",
-    "command": "ownerid {player_name}",
-    "commandUsage": "ownerid U7FH"
+    "command": "ownerid {player_name}"
   },
   {
     "name": "Remove Owner",
-    "description": "Removes owner auth level from a player.",
-    "command": "removeowner {player_name}",
-    "commandUsage": "removeowner U7FH"
+    "command": "removeowner {player_name}"
   },
   {
     "name": "Grant Admin",
-    "description": "Grants admin auth level to a player.",
-    "command": "adminid {player_name}",
-    "commandUsage": "adminid U7FH"
+    "command": "adminid {player_name}"
   },
   {
     "name": "Remove Admin",
-    "description": "Removes admin auth level from a player.",
-    "command": "removeadmin {player_name}",
-    "commandUsage": "removeadmin U7FH"
+    "command": "removeadmin {player_name}"
   },
   {
     "name": "Grant Moderator",
-    "description": "Grants moderator auth level to a player.",
-    "command": "moderatorid {player_name}",
-    "commandUsage": "moderatorid U7FH"
+    "command": "moderatorid {player_name}"
   },
   {
     "name": "Remove Moderator",
-    "description": "Removes moderator auth level from a player.",
-    "command": "removemoderator {player_name}",
-    "commandUsage": "removemoderator U7FH"
+    "command": "removemoderator {player_name}"
   },
   {
     "name": "Grant VIP",
-    "description": "Grants VIP auth level to a player.",
-    "command": "vipid {player_name}",
-    "commandUsage": "vipid U7FH"
+    "command": "vipid {player_name}"
   },
   {
     "name": "Remove VIP",
-    "description": "Removes VIP auth level from a player.",
-    "command": "removevip {player_name}",
-    "commandUsage": "removevip U7FH"
+    "command": "removevip {player_name}"
   },
   {
     "name": "Get Auth Level",
-    "description": "Displays the auth level of a player.",
-    "command": "getauthlevel {player_name}",
-    "commandUsage": "getauthlevel U7FH"
+    "command": "getauthlevel {player_name}"
   },
   {
     "name": "Get All Auth Levels",
-    "description": "Displays auth levels for all players.",
-    "command": "getauthlevels",
-    "commandUsage": "getauthlevels"
+    "command": "getauthlevels"
   },
   {
     "name": "Reset Player State",
-    "description": "Resets the player's state.",
-    "command": "player.resetstate",
-    "commandUsage": "player.resetstate"
+    "command": "player.resetstate"
   },
   {
     "name": "Create Skull",
-    "description": "Creates a skull for a player.",
-    "command": "player.createskull {player_name}",
-    "commandUsage": "player.createskull U7FH"
+    "command": "player.createskull {player_name}"
   },
   {
     "name": "Toggle Player Sleep",
-    "description": "Toggles sleep state for a player.",
-    "command": "relationshipmanager.sleeptoggleother {player_name}",
-    "commandUsage": "relationshipmanager.sleeptoggleother U7FH"
+    "command": "relationshipmanager.sleeptoggleother {player_name}"
   },
   {
     "name": "Print Position",
-    "description": "Displays the position of a player.",
-    "command": "server.printpos {player_name}",
-    "commandUsage": "server.printpos U7FH"
+    "command": "server.printpos {player_name}"
   },
   {
     "name": "Print Rotation",
-    "description": "Displays the rotation of a player.",
-    "command": "server.printrot {player_name}",
-    "commandUsage": "server.printrot U7FH"
+    "command": "server.printrot {player_name}"
   },
   {
     "name": "Search Chat",
-    "description": "Searches chat messages for a string.",
-    "command": "chat.search {string}",
-    "commandUsage": "chat.search raid"
+    "command": "chat.search {string}"
   },
   {
     "name": "Chat Tail",
-    "description": "Displays recent chat messages.",
-    "command": "chat.tail {number}",
-    "commandUsage": "chat.tail 50"
+    "command": "chat.tail {number}"
   },
   {
     "name": "Find Player Team",
-    "description": "Displays all members of a player's team.",
-    "command": "relationshipmanager.findplayerteam {player_name}",
-    "commandUsage": "relationshipmanager.findplayerteam U7FH"
+    "command": "relationshipmanager.findplayerteam {player_name}"
   },
   {
     "name": "Team Information",
-    "description": "Displays all members of a specified team.",
-    "command": "relationshipmanager.teaminfo {team_id}",
-    "commandUsage": "relationshipmanager.teaminfo 1"
+    "command": "relationshipmanager.teaminfo {team_id}"
   },
   {
     "name": "All Team Information",
-    "description": "Displays all members of all teams.",
-    "command": "relationshipmanager.teaminfoall",
-    "commandUsage": "relationshipmanager.teaminfoall"
+    "command": "relationshipmanager.teaminfoall"
   },
   {
     "name": "Toggle Team Action Logs",
-    "description": "Enables or disables team action logs.",
-    "command": "relationshipmanager.logteamactions {0|1}",
-    "commandUsage": "relationshipmanager.logteamactions 1"
+    "command": "relationshipmanager.logteamactions {0|1}"
   }
 ]

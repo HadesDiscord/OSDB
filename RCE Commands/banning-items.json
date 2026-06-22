@@ -1,146 +1,98 @@
 [
   {
     "name": "Ban Item",
-    "description": "Applies one or more ban options to an item.",
-    "command": "banitem {item_name} {option}",
-    "commandUsage": "banitem rifle.ak NoBlueprintSpawn NoCrafting"
+    "command": "banitem {item_name} {option}"
   },
   {
     "name": "Unban Item",
-    "description": "Removes all ban options from an item and restores default item behavior.",
-    "command": "unbanitem {item_name}",
-    "commandUsage": "unbanitem rifle.ak"
+    "command": "unbanitem {item_name}"
   },
   {
     "name": "Disable Crafting",
-    "description": "Prevents players from crafting the item.",
-    "command": "banitem {item_name} NoCrafting",
-    "commandUsage": "banitem rifle.ak NoCrafting"
+    "command": "banitem {item_name} NoCrafting"
   },
   {
     "name": "Tech Tree Bypass",
-    "description": "Prevents the item from being researched while allowing child items to remain researchable.",
-    "command": "banitem {item_name} TechTreeBypass",
-    "commandUsage": "banitem rifle.ak TechTreeBypass"
+    "command": "banitem {item_name} TechTreeBypass"
   },
   {
     "name": "Tech Tree Block Path",
-    "description": "Prevents the item from being researched and blocks items below it on the Tech Tree.",
-    "command": "banitem {item_name} TechTreeBlockpath",
-    "commandUsage": "banitem rifle.ak TechTreeBlockpath"
+    "command": "banitem {item_name} TechTreeBlockpath"
   },
   {
     "name": "No Tech Tree",
-    "description": "Applies both TechTreeBypass and TechTreeBlockpath to the item.",
-    "command": "banitem {item_name} NoTechTree",
-    "commandUsage": "banitem rifle.ak NoTechTree"
+    "command": "banitem {item_name} NoTechTree"
   },
   {
     "name": "Research Table Blocked",
-    "description": "Prevents the item from being researched at a Research Table.",
-    "command": "banitem {item_name} ResearchTableBlocked",
-    "commandUsage": "banitem rifle.ak ResearchTableBlocked"
+    "command": "banitem {item_name} ResearchTableBlocked"
   },
   {
     "name": "No Research",
-    "description": "Applies both NoTechTree and ResearchTableBlocked to the item.",
-    "command": "banitem {item_name} NoResearch",
-    "commandUsage": "banitem rifle.ak NoResearch"
+    "command": "banitem {item_name} NoResearch"
   },
   {
     "name": "No Item Spawn",
-    "description": "Prevents the item from spawning in any container and removes it from containers.",
-    "command": "banitem {item_name} NoItemSpawn",
-    "commandUsage": "banitem rifle.ak NoItemSpawn"
+    "command": "banitem {item_name} NoItemSpawn"
   },
   {
     "name": "No Blueprint Spawn",
-    "description": "Prevents the item's blueprint from spawning.",
-    "command": "banitem {item_name} NoBlueprintSpawn",
-    "commandUsage": "banitem rifle.ak NoBlueprintSpawn"
+    "command": "banitem {item_name} NoBlueprintSpawn"
   },
   {
     "name": "No Spawn",
-    "description": "Applies both NoItemSpawn and NoBlueprintSpawn to the item.",
-    "command": "banitem {item_name} NoSpawn",
-    "commandUsage": "banitem rifle.ak NoSpawn"
+    "command": "banitem {item_name} NoSpawn"
   },
   {
     "name": "Ban Item All",
-    "description": "Applies all ban options to the item.",
-    "command": "banitem {item_name} All",
-    "commandUsage": "banitem rifle.ak All"
+    "command": "banitem {item_name} All"
   },
   {
     "name": "Ban Item In Config",
-    "description": "Adds an item ban option to a ban item configuration.",
-    "command": "banitem {config_name} {item_name} {option}",
-    "commandUsage": "banitem NoAKs rifle.ak NoCrafting"
+    "command": "banitem {config_name} {item_name} {option}"
   },
   {
     "name": "Unban Item From Config",
-    "description": "Removes an item ban option from a ban item configuration.",
-    "command": "unbanitem {config_name} {item_name} {option}",
-    "commandUsage": "unbanitem NoAKs rifle.ak NoCrafting"
+    "command": "unbanitem {config_name} {item_name} {option}"
   },
   {
     "name": "List Ban Item Configs",
-    "description": "Lists all ban item configurations.",
-    "command": "listbanitemcfg",
-    "commandUsage": "listbanitemcfg"
+    "command": "listbanitemcfg"
   },
   {
     "name": "List Ban Item Config",
-    "description": "Lists all items inside a specified ban item configuration.",
-    "command": "banitemcfg {config_name}",
-    "commandUsage": "banitemcfg NoAKs"
+    "command": "banitemcfg {config_name}"
   },
   {
     "name": "List All Banned Items",
-    "description": "Lists all configurations and all banned items inside them.",
-    "command": "listbanneditemsall",
-    "commandUsage": "listbanneditemsall"
+    "command": "listbanneditemsall"
   },
   {
     "name": "List Default Banned Items",
-    "description": "Lists all default configurations and their banned items.",
-    "command": "listbanneditemsdefaultcfg",
-    "commandUsage": "listbanneditemsdefaultcfg"
+    "command": "listbanneditemsdefaultcfg"
   },
   {
     "name": "List Custom Banned Items",
-    "description": "Lists all custom configurations and their banned items.",
-    "command": "listbanneditemscustomcfg",
-    "commandUsage": "listbanneditemscustomcfg"
+    "command": "listbanneditemscustomcfg"
   },
   {
     "name": "Clear Custom Banned Items",
-    "description": "Clears all items from a custom configuration and unbans them.",
-    "command": "clearbanneditemscustom {config_name}",
-    "commandUsage": "clearbanneditemscustom NoAKs"
+    "command": "clearbanneditemscustom {config_name}"
   },
   {
     "name": "Clear Default Banned Items",
-    "description": "Clears all items from the default banned list and unbans them.",
-    "command": "clearbanneditemsdefault",
-    "commandUsage": "clearbanneditemsdefault"
+    "command": "clearbanneditemsdefault"
   },
   {
     "name": "Enable Ban Item Config",
-    "description": "Applies the banned items saved in a configuration.",
-    "command": "enablebanitemcfg {config_name}",
-    "commandUsage": "enablebanitemcfg NoAKs"
+    "command": "enablebanitemcfg {config_name}"
   },
   {
     "name": "Disable Ban Item Config",
-    "description": "Removes the banned items saved in a configuration.",
-    "command": "disablebanitemcfg {config_name}",
-    "commandUsage": "disablebanitemcfg NoAKs"
+    "command": "disablebanitemcfg {config_name}"
   },
   {
     "name": "Delete Ban Item Config",
-    "description": "Deletes a configuration and clears its banned items.",
-    "command": "deletebanitemcfg {config_name}",
-    "commandUsage": "deletebanitemcfg NoAKs"
+    "command": "deletebanitemcfg {config_name}"
   }
 ]

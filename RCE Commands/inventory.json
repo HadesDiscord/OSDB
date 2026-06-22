@@ -1,74 +1,50 @@
 [
   {
     "name": "Give Item",
-    "description": "Gives yourself an item.",
-    "command": "inventory.give {item_shortname} {amount}",
-    "commandUsage": "inventory.give wooden_spear 3"
+    "command": "inventory.give {item_shortname} {amount}"
   },
   {
     "name": "Give Item To All Players",
-    "description": "Gives all players an item.",
-    "command": "inventory.giveall {item_shortname} {amount}",
-    "commandUsage": "inventory.giveall wooden_spear 2"
+    "command": "inventory.giveall {item_shortname} {amount}"
   },
   {
     "name": "Give Item To Player",
-    "description": "Gives an item to a specified player.",
-    "command": "inventory.giveto {player_name} {item_shortname} {amount}",
-    "commandUsage": "inventory.giveto U7FH wood 1"
+    "command": "inventory.giveto {player_name} {item_shortname} {amount}"
   },
   {
     "name": "Drop Item To Player",
-    "description": "Drops an item for a specified player.",
-    "command": "inventory.givedrop {player_name} {item_shortname} {amount}",
-    "commandUsage": "inventory.givedrop U7FH wooden_spear 1"
+    "command": "inventory.givedrop {player_name} {item_shortname} {amount}"
   },
   {
     "name": "Add Default Item",
-    "description": "Adds an item to the default player inventory.",
-    "command": "inventory.adddefaultitem {item_shortname}",
-    "commandUsage": "inventory.adddefaultitem wooden_spear"
+    "command": "inventory.adddefaultitem {item_shortname}"
   },
   {
     "name": "Clear Default Items",
-    "description": "Removes all default spawn items.",
-    "command": "inventory.cleardefaultitem",
-    "commandUsage": "inventory.cleardefaultitem"
+    "command": "inventory.cleardefaultitem"
   },
   {
     "name": "Remove Default Item",
-    "description": "Removes an item from the default player inventory.",
-    "command": "inventory.removedefaultitem {item_shortname}",
-    "commandUsage": "inventory.removedefaultitem wooden_spear"
+    "command": "inventory.removedefaultitem {item_shortname}"
   },
   {
     "name": "Clear Item From Players",
-    "description": "Clears matching items from player inventories.",
-    "command": "inventory.clearitemfromplayers",
-    "commandUsage": "inventory.clearitemfromplayers"
+    "command": "inventory.clearitemfromplayers"
   },
   {
     "name": "Remove From Corpses",
-    "description": "Removes matching items from corpses.",
-    "command": "inventory.removefromcorpses",
-    "commandUsage": "inventory.removefromcorpses"
+    "command": "inventory.removefromcorpses"
   },
   {
     "name": "Reset Blueprints",
-    "description": "Resets blueprint progress for all players.",
-    "command": "inventory.resetbp",
-    "commandUsage": "inventory.resetbp"
+    "command": "inventory.resetbp"
   },
   {
     "name": "Unlock All Blueprints",
-    "description": "Unlocks all blueprints for the executing player.",
-    "command": "inventory.unlockall",
-    "commandUsage": "inventory.unlockall"
+    "command": "inventory.unlockall"
   },
   {
     "name": "Remove Dropped Items",
-    "description": "Removes all dropped instances of a specified item.",
-    "command": "inventory.removedroppeditems {item_shortname}",
-    "commandUsage": "inventory.removedroppeditems wooden_spear"
+    "command": "inventory.removedroppeditems {item_shortname}"
   }
 ]
